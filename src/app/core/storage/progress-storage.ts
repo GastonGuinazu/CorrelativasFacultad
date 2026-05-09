@@ -1,6 +1,7 @@
 import { MapaEstados } from '../models/materia.model';
 
 const STORAGE_KEY = 'utn-is-progress-v1';
+const COMMENT_VOTES_KEY = 'utn-is-comment-votes-v1';
 
 export type CategoriaComentario =
   | 'donde-cursar'
@@ -14,6 +15,7 @@ export interface ComentarioUsuario {
   texto: string;
   fecha: number;
   nombreUsuario?: string | null;
+  votos_count?: number;
 }
 
 export type ComentariosMap = Record<
@@ -87,4 +89,21 @@ export function saveProgreso(estados: MapaEstados): void {
 export function clearProgreso(): void {
   if (typeof window === 'undefined') return;
   window.localStorage.removeItem(STORAGE_KEY);
+}
+
+export function loadComentariosVotadosIds(): Set<string> {
+  if (typeof window === 'undefined') return new Set();
+  const raw = safeParse<string[]>(
+    window.localStorage.getItem(COMMENT_VOTES_KEY),
+    [],
+  );
+  return new Set(raw.filter((id) => typeof id === 'string' && id.length > 0));
+}
+
+export function persistComentariosVotadosIds(ids: Set<string>): void {
+  if (typeof window === 'undefined') return;
+  window.localStorage.setItem(
+    COMMENT_VOTES_KEY,
+    JSON.stringify([...ids]),
+  );
 }

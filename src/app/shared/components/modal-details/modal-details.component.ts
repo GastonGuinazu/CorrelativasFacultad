@@ -36,9 +36,14 @@ import {
 
   Loader2,
 
+  ThumbsUp,
+
 } from 'lucide-angular';
 
-import { ProgressStore } from '../../../core/state/progress.store';
+import {
+  OrdenComentariosModal,
+  ProgressStore,
+} from '../../../core/state/progress.store';
 
 import { CategoriaComentario } from '../../../core/storage/progress-storage';
 
@@ -49,10 +54,6 @@ import { ModalShellComponent } from '../modal-shell/modal-shell.component';
 
 
 type Tab = CategoriaComentario;
-
-
-
-type OrdenComentarios = 'recientes' | 'relevantes';
 
 
 
@@ -424,6 +425,52 @@ const TABS: TabDef[] = [
 
                     <p class="leading-relaxed text-slate-700">{{ c.texto }}</p>
 
+                    <div
+
+                      class="mt-3 flex items-center justify-end border-t border-slate-100 pt-3"
+
+                    >
+
+                      <button
+
+                        type="button"
+
+                        class="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-[11px] font-semibold text-slate-600 transition hover:border-teal-200 hover:bg-teal-50 hover:text-teal-800 disabled:cursor-not-allowed disabled:opacity-60"
+
+                        [disabled]="
+
+                          store.comentariosVotadosPorUsuario().has(c.id) ||
+
+                          votandoComentarioId() === c.id ||
+
+                          !store.comentariosSupabaseConfigurado()
+
+                        "
+
+                        (click)="votarUtil(c.id)"
+
+                      >
+
+                        <lucide-icon
+
+                          [name]="iconThumbsUp"
+
+                          class="h-3.5 w-3.5 shrink-0"
+
+                        ></lucide-icon>
+
+                        Es útil
+
+                        <span class="tabular-nums text-slate-500">{{
+
+                          c.votos_count ?? 0
+
+                        }}</span>
+
+                      </button>
+
+                    </div>
+
                   </article>
 
                 }
@@ -494,7 +541,7 @@ export class ModalDetailsComponent {
 
   readonly activeTab = signal<Tab>('donde-cursar');
 
-  readonly ordenLista = signal<OrdenComentarios>('recientes');
+  readonly ordenLista = signal<OrdenComentariosModal>('recientes');
 
   readonly borrador = signal<string>('');
 
@@ -509,6 +556,10 @@ export class ModalDetailsComponent {
   readonly iconUser = User;
 
   readonly iconLoader = Loader2;
+
+  readonly iconThumbsUp = ThumbsUp;
+
+  readonly votandoComentarioId = signal<string | null>(null);
 
 
 
@@ -550,27 +601,15 @@ export class ModalDetailsComponent {
 
     if (!ev) return [];
 
-    const all = this.store.comentariosDe(ev.materia.id, this.activeTab());
+    return this.store.comentariosDe(
 
-    const copy = [...all];
+      ev.materia.id,
 
-    if (this.ordenLista() === 'recientes') {
+      this.activeTab(),
 
-      copy.sort((a, b) => b.fecha - a.fecha);
+      this.ordenLista(),
 
-    } else {
-
-      copy.sort(
-
-        (a, b) =>
-
-          b.texto.length - a.texto.length || b.fecha - a.fecha,
-
-      );
-
-    }
-
-    return copy;
+    );
 
   });
 
@@ -616,9 +655,33 @@ export class ModalDetailsComponent {
 
 
 
-  setOrden(orden: OrdenComentarios): void {
+  setOrden(orden: OrdenComentariosModal): void {
 
     this.ordenLista.set(orden);
+
+  }
+
+
+
+  async votarUtil(commentId: string): Promise<void> {
+
+    if (this.votandoComentarioId() !== null) return;
+
+    this.votandoComentarioId.set(commentId);
+
+    try {
+
+      await this.store.votarComentario(commentId);
+
+    } catch {
+
+      /* mensaje en comentariosError */
+
+    } finally {
+
+      this.votandoComentarioId.set(null);
+
+    }
 
   }
 

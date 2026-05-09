@@ -6,11 +6,18 @@ import {
   ComentarioUsuario,
   ComentariosMap,
   clearProgreso,
+  loadComentariosVotadosIds,
   loadProgreso,
   mergeComentariosMateria,
+  persistComentariosVotadosIds,
   saveProgreso,
+  tipoDbToCategoria,
 } from '../storage/progress-storage';
-import { CommentsService } from '../services/comments.service';
+import {
+  CommentRow,
+  CommentsService,
+  messageFromUnknown,
+} from '../services/comments.service';
 import { cargarPlanEstudios } from '../data/materias.loader';
 import {
   EstadoUsuario,
@@ -24,6 +31,9 @@ import {
 import { CelebracionEvent } from '../models/celebracion.model';
 import { evaluarPlan, indexarPorId } from '../rules/correlativas.engine';
 import { progresoTituloIngenieria } from '../rules/progreso-titulo';
+
+/** Orden de la lista en el modal de comentarios (pestaña Recientes / Relevantes). */
+export type OrdenComentariosModal = 'recientes' | 'relevantes';
 
 const PLAN_VACIO: PlanEstudios = {
   configuracion: {
@@ -66,6 +76,15 @@ export class ProgressStore {
   readonly estadosSignal = signal<MapaEstados>(loadProgreso());
 
   readonly comentariosSignal = signal<ComentariosMap>({});
+
+  /** IDs de comentarios que este navegador ya marcó como útiles (localStorage). */
+  private readonly comentariosVotadosIds = signal<Set<string>>(
+    loadComentariosVotadosIds(),
+  );
+
+  readonly comentariosVotadosPorUsuario = computed(() =>
+    this.comentariosVotadosIds(),
+  );
 
   /** Clave `String(materiaId)` mientras se obtienen comentarios de esa materia. */
   readonly comentariosCargandoMateria = signal<string | null>(null);
@@ -348,8 +367,62 @@ export class ProgressStore {
   comentariosDe(
     materiaId: MateriaId,
     categoria: CategoriaComentario,
+    orden: OrdenComentariosModal = 'recientes',
   ): ComentarioUsuario[] {
     const key = String(materiaId);
-    return this.comentariosSignal()[key]?.[categoria] ?? [];
+    const list = this.comentariosSignal()[key]?.[categoria] ?? [];
+    const copy = [...list];
+    if (orden === 'recientes') {
+      copy.sort((a, b) => b.fecha - a.fecha);
+    } else {
+      copy.sort(
+        (a, b) =>
+          (b.votos_count ?? 0) - (a.votos_count ?? 0) || b.fecha - a.fecha,
+      );
+    }
+    return copy;
+  }
+
+  async votarComentario(commentId: string): Promise<void> {
+    if (this.comentariosVotadosIds().has(commentId)) return;
+    if (!this.commentsService.isConfigured()) {
+      this.comentariosError.set(
+        'No se puede votar: configurá Supabase en environment.',
+      );
+      return;
+    }
+    this.comentariosError.set(null);
+    try {
+      const row = await this.commentsService.incrementVotos(commentId);
+      this.comentariosVotadosIds.update((prev) => {
+        const next = new Set(prev);
+        next.add(commentId);
+        persistComentariosVotadosIds(next);
+        return next;
+      });
+      this.aplicarComentarioActualizado(row);
+    } catch (e) {
+      this.comentariosError.set(messageFromUnknown(e));
+      throw e;
+    }
+  }
+
+  private aplicarComentarioActualizado(row: CommentRow): void {
+    const key = row.materia_id;
+    const cat = tipoDbToCategoria(row.categoria);
+    const updated = CommentsService.rowToUsuario(row);
+    this.comentariosSignal.update((prev) => {
+      const buckets = prev[key];
+      if (!buckets) return prev;
+      const list = buckets[cat];
+      const idx = list.findIndex((c) => c.id === row.id);
+      if (idx === -1) return prev;
+      const nextList = [...list];
+      nextList[idx] = updated;
+      return {
+        ...prev,
+        [key]: { ...buckets, [cat]: nextList },
+      };
+    });
   }
 }

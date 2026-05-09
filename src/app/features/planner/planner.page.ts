@@ -13,6 +13,7 @@ import {
   Headphones,
   BookOpen,
 } from 'lucide-angular';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ProgressStore } from '../../core/state/progress.store';
 import { StatsSidebarComponent } from '../../shared/components/stats-sidebar/stats-sidebar.component';
 import { SubjectCardComponent } from '../../shared/components/subject-card/subject-card.component';
@@ -26,6 +27,8 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
   selector: 'app-planner-page',
   standalone: true,
   imports: [
+    RouterLink,
+    RouterLinkActive,
     LucideAngularModule,
     StatsSidebarComponent,
     SubjectCardComponent,
@@ -75,31 +78,17 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
             <button
               type="button"
               class="rounded-full px-3 py-1.5 text-xs font-medium text-white/90 hover:text-white"
-              (click)="scrollTop()"
-            >
-              Inicio
-            </button>
-            <button
-              type="button"
-              class="rounded-full px-3 py-1.5 text-xs font-medium text-white/90 hover:text-white"
               (click)="store.setNivelActivo(1); scrollToGrid()"
             >
-              Materias
+              Planificador
             </button>
-            @for (n of store.nivelesDisponibles(); track n) {
-              <button
-                type="button"
-                class="rounded-full px-3 py-1.5 text-xs font-medium transition"
-                [class]="
-                  store.nivelActivo() === n
-                    ? 'bg-emerald-600 text-white shadow-sm'
-                    : 'text-white/90 hover:text-white'
-                "
-                (click)="store.setNivelActivo(n); scrollToGrid()"
-              >
-                Nivel {{ n }}
-              </button>
-            }
+            <a
+              routerLink="/mapa"
+              routerLinkActive="bg-emerald-600 text-white shadow-sm"
+              class="rounded-full px-3 py-1.5 text-xs font-medium text-white/90 transition hover:text-white"
+            >
+              Mapa
+            </a>
           </div>
         </nav>
 
@@ -354,11 +343,6 @@ export class PlannerPage {
       this.store.setNivelActivo(niveles[idx - 1]);
       this.scrollToGrid();
     }
-  }
-
-  scrollTop(): void {
-    if (typeof window !== 'undefined')
-      window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   scrollToGrid(): void {

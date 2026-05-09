@@ -67,5 +67,8 @@
       { "nombre": "Seguridad en el Desarrollo de Software", "nivel": 5, "creditos": 3, "reg": [26, 19], "aprob": [20, 8] },
       { "nombre": "Integración de Aplicaciones en Entorno Web", "nivel": 5, "creditos": 3, "reg": [26, 19], "aprob": [19, 20] },
       { "nombre": "Ingeniería de Software de Fuentes Abiertas/Libres", "nivel": 5, "creditos": 3, "reg": [19, 20, 26], "aprob": [13, 14] }
-    ]
+    ],
+    "modelo_comentario": {
+      "votos_count": 0
+    }
   }
