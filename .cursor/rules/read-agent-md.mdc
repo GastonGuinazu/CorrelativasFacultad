@@ -1,0 +1,6 @@
+---
+description: Cargar contexto del proyecto desde Agent.md
+alwaysApply: true
+---
+
+Antes de cambios sustanciales o nuevas features, leé [`Agent.md`](Agent.md) en la raíz del repo (stack, rutas clave, comandos). No dupliques ese contenido en el chat si podés seguir enlaces internos.
