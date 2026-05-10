@@ -30,6 +30,7 @@ Sheets API + build-horarios.mjs → horarios-<año>.generated.json (public/data/
 | Rol | Ruta |
 |-----|------|
 | Build | [`scripts/horarios/build-horarios.mjs`](../../../scripts/horarios/build-horarios.mjs) |
+| Validación JSON commitados | [`scripts/horarios/validate-generated-json.mjs`](../../../scripts/horarios/validate-generated-json.mjs) (`npm run horarios:validate`) |
 | Parser grilla | [`scripts/horarios/parse-grid.mjs`](../../../scripts/horarios/parse-grid.mjs) |
 | Match texto → materia | [`scripts/horarios/match-alias.mjs`](../../../scripts/horarios/match-alias.mjs) |
 | API Sheets | [`scripts/horarios/sheets-api.mjs`](../../../scripts/horarios/sheets-api.mjs) |
@@ -39,6 +40,7 @@ Sheets API + build-horarios.mjs → horarios-<año>.generated.json (public/data/
 
 ## Match `match-alias.mjs`
 
+- **5.º año:** `aliases-v5.json` — obligatorias `31–36`; electivas del catálogo también en `electivasPorNombre` (matchean **antes** que huecos `E1`–`E5`) para nombres largos; huecos con opciones por celda genérica “Electiva N” y combinaciones tipo `Electiva 4 - E5` (prioridad `E4` por orden de lectura).
 - Celda corta (≤4 caracteres normalizados) vs **patrón largo**: solo coincide si el texto corto es **token completo** en el patrón (evita que `IS`/`AS` se confundan con substrings tipo `…legisl…`, `tecnologías…`).
 
 ## Parser `parse-grid.mjs` (grilla)
@@ -61,6 +63,7 @@ Sheets API + build-horarios.mjs → horarios-<año>.generated.json (public/data/
 
 - Env: `GOOGLE_SHEETS_API_KEY`. Opcional: `HORARIOS_INCLUDE_HIDDEN_SHEETS=1`.
 - Tests: `npm run test:horarios`.
+- Validar JSON generados (misma fuente que `/cursos-profes` y `/cronograma`): `npm run horarios:validate` — opción `--json` para máquina; código de salida `1` si hay errores de matching (`bloque.sin_match`, `resumen.sin_match`). La coherencia grilla ↔ tabla Materia/Docentes solo compara **obligatorias** (electivas/huecos generan falsos positivos).
 - Guía larga (API key, troubleshooting): [`scripts/horarios/README.md`](../../../scripts/horarios/README.md).
 
 No mantener aquí tablas de abreviaturas por materia; viven en cada `aliases-v{n}.json` y en el plan (`materias.json`).

@@ -3,7 +3,7 @@
   "fuente": {
     "spreadsheetId": "1k9ciPJ7Eqa1AaZNnZSNKhjiV69zBBXx3mkQEh-dbXTw",
     "url": "https://docs.google.com/spreadsheets/d/1k9ciPJ7Eqa1AaZNnZSNKhjiV69zBBXx3mkQEh-dbXTw/edit",
-    "extraidoEn": "2026-05-10T03:35:58.332Z",
+    "extraidoEn": "2026-05-10T04:26:13.610Z",
     "anioCursado": 1
   },
   "cursos": [
@@ -270,7 +270,11 @@
           "horaInicio": "11:20",
           "horaFin": "12:05",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -280,7 +284,11 @@
           "horaInicio": "11:20",
           "horaFin": "12:05",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -290,7 +298,11 @@
           "horaInicio": "12:05",
           "horaFin": "12:50",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -300,7 +312,11 @@
           "horaInicio": "12:05",
           "horaFin": "12:50",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -1262,7 +1278,11 @@
           "horaInicio": "11:20",
           "horaFin": "12:05",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -1272,7 +1292,11 @@
           "horaInicio": "11:20",
           "horaFin": "12:05",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -1282,7 +1306,11 @@
           "horaInicio": "12:05",
           "horaFin": "12:50",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -1292,7 +1320,11 @@
           "horaInicio": "12:05",
           "horaFin": "12:50",
           "materiaCrudo": "Algortimos\ny Estructuras\nde Datos",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 6,
+            "nombreCanonico": "Algoritmo y Estructura de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -12243,7 +12275,11 @@
         {
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
           "docentesCrudo": "Jewsbury, Alejandra María\nGarro Olivieri, Judith Ivana Rita\nRodriguez Aleua, Fernanda Cristina",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         },
@@ -15006,7 +15042,11 @@
           "horaInicio": "11:20",
           "horaFin": "12:05",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -15030,7 +15070,11 @@
           "horaInicio": "12:05",
           "horaFin": "12:50",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -15222,7 +15266,11 @@
           "horaInicio": "8:00",
           "horaFin": "8:45",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -15246,7 +15294,11 @@
           "horaInicio": "8:45",
           "horaFin": "9:30",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -15348,7 +15400,11 @@
         {
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
           "docentesCrudo": "Bacchini, Patricia Alejandra\nRodriguez Aleua, Fernanda Cristina\nPiedrabuena Castellano, Paola Trinidad",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         },
@@ -16099,7 +16155,11 @@
           "horaInicio": "8:00",
           "horaFin": "8:45",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -16123,7 +16183,11 @@
           "horaInicio": "8:45",
           "horaFin": "9:30",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -16371,7 +16435,11 @@
           "horaInicio": "11:20",
           "horaFin": "12:05",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -16395,7 +16463,11 @@
           "horaInicio": "12:05",
           "horaFin": "12:50",
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgb": null
         },
         {
@@ -16553,7 +16625,11 @@
         {
           "materiaCrudo": "Sitemas y\nProcesos de\nNegocios",
           "docentesCrudo": "Castro, Claudia Susana\nHerrera, Daniel Rodolfo\nNuñez, Roberto Adrian",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 8,
+            "nombreCanonico": "Sistemas y Proceso de Negocios"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         },

@@ -201,9 +201,14 @@ type FiltroCuatrimestre = '1er' | '2do';
                   <p class="mt-3 text-sm text-slate-500">
                     No hay materias con ese cuatrimestre en los datos cargados.
                   </p>
+                } @else if (!disponiblesSinSeleccionar().length) {
+                  <p class="mt-3 text-sm text-slate-400">
+                    Todas las materias disponibles ya están en tu cronograma o en
+                    <span class="text-slate-300">Tu selección</span>. Quitá alguna para volver a elegirla acá.
+                  </p>
                 } @else {
                   <ul class="mt-3 space-y-1 text-sm">
-                    @for (ev of disponiblesFiltrados(); track ev.materia.id) {
+                    @for (ev of disponiblesSinSeleccionar(); track ev.materia.id) {
                       <li>
                         <button
                           type="button"
@@ -368,9 +373,9 @@ type FiltroCuatrimestre = '1er' | '2do';
                           <div class="relative z-[1] h-full w-full">
                             @for (bloque of bloquesEnColumnaDia(d); track trackBloque(bloque)) {
                               <div
-                                class="absolute rounded px-0.5 py-0.5 text-[11px] leading-snug text-white shadow-sm overflow-hidden"
+                                class="group absolute rounded px-0.5 py-0.5 text-[11px] leading-snug text-white shadow-sm overflow-hidden"
                                 [class]="bloque.clase"
-                                [class.pointer-events-none]="bloque.esPreview"
+                                [class.pointer-events-none]="bloque.esPreview === true"
                                 [class.opacity-95]="bloque.esPreview"
                                 [class.opacity-100]="!bloque.esPreview"
                                 [style.top.%]="bloque.top"
@@ -379,7 +384,23 @@ type FiltroCuatrimestre = '1er' | '2do';
                                 [style.width.%]="bloque.widthPct"
                                 [style.z-index]="bloque.zIndex"
                               >
-                                {{ bloque.etiqueta }}
+                                <div
+                                  class="flex items-start justify-between gap-0.5"
+                                  [class.pointer-events-none]="bloque.esPreview"
+                                >
+                                  <span class="min-w-0 flex-1 hyphens-auto">{{ bloque.etiqueta }}</span>
+                                  @if (!bloque.esPreview && bloque.materiaId != null) {
+                                    <button
+                                      type="button"
+                                      class="pointer-events-auto shrink-0 rounded p-0.5 text-white/90 opacity-0 transition-opacity hover:bg-white/15 hover:text-white group-hover:opacity-100"
+                                      (click)="quitarSeleccion(bloque.materiaId!); $event.stopPropagation()"
+                                      aria-label="Quitar del cronograma"
+                                      title="Quitar"
+                                    >
+                                      <lucide-icon [name]="iconX" class="h-3.5 w-3.5"></lucide-icon>
+                                    </button>
+                                  }
+                                </div>
                               </div>
                             }
                           </div>
@@ -436,6 +457,12 @@ export class CronogramaArmadoPage {
     });
   });
 
+  /** Materias que aún podés elegir (las ya seleccionadas no aparecen en la lista). */
+  readonly disponiblesSinSeleccionar = computed(() => {
+    const elegidas = new Set(this.selecciones().map((s) => s.materiaId));
+    return this.disponiblesFiltrados().filter((ev) => !elegidas.has(ev.materia.id));
+  });
+
   readonly ofertasExploradas = computed(() => {
     const ex = this.materiaExplorada();
     if (!ex) return [];
@@ -475,7 +502,7 @@ export class CronogramaArmadoPage {
     effect(() => {
       const id = this.materiaExploradaId();
       if (id === null) return;
-      const ok = this.disponiblesFiltrados().some((e) => e.materia.id === id);
+      const ok = this.disponiblesSinSeleccionar().some((e) => e.materia.id === id);
       if (!ok) this.materiaExploradaId.set(null);
     });
   }
@@ -552,6 +579,8 @@ export class CronogramaArmadoPage {
       const rest = list.filter((s) => s.materiaId !== ev.materia.id);
       return [...rest, { materiaId: ev.materia.id, oferta }];
     });
+    this.materiaExploradaId.set(null);
+    this.previewOfertaTrack.set(null);
   }
 
   quitarSeleccion(id: MateriaId): void {
@@ -604,6 +633,7 @@ export class CronogramaArmadoPage {
       track: string;
       clipIniRel: number;
       clipFinRel: number;
+      materiaId: MateriaId;
     }
 
     const raw: RawSeg[] = [];
@@ -630,6 +660,7 @@ export class CronogramaArmadoPage {
           track: `${sel.materiaId}-${dia}-${clipIni}-${clipFin}`,
           clipIniRel,
           clipFinRel,
+          materiaId: sel.materiaId,
         });
       }
     });
@@ -643,6 +674,7 @@ export class CronogramaArmadoPage {
         widthPct: 99,
         zIndex: 10 + i,
         esPreview: false,
+        materiaId: r.materiaId,
       }));
     } else {
       const sorted = [...raw].sort(
@@ -684,6 +716,7 @@ export class CronogramaArmadoPage {
           widthPct: w,
           zIndex: 10 + i,
           esPreview: false,
+          materiaId: seg.materiaId,
         };
       });
     }
@@ -764,4 +797,6 @@ interface BloqueRender {
   zIndex: number;
   /** Hover sobre “Usar esta comisión”; semitransparente sobre la grilla */
   esPreview?: boolean;
+  /** Solo bloques de selección confirmada */
+  materiaId?: MateriaId;
 }

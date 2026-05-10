@@ -3,7 +3,7 @@
   "fuente": {
     "spreadsheetId": "16VWvLd2raHPeOWuqvDe2vx-ZpgiQebq8T6xMNxxkOiI",
     "url": "https://docs.google.com/spreadsheets/d/16VWvLd2raHPeOWuqvDe2vx-ZpgiQebq8T6xMNxxkOiI/edit",
-    "extraidoEn": "2026-05-10T03:36:50.896Z",
+    "extraidoEn": "2026-05-10T04:22:42.282Z",
     "anioCursado": 5
   },
   "cursos": [
@@ -22,6 +22,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -52,6 +53,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -82,6 +84,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -112,6 +115,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -142,6 +146,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -620,6 +625,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -650,6 +656,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -680,6 +687,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -711,7 +719,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -759,7 +768,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -793,7 +803,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -827,7 +838,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -861,7 +873,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -929,7 +942,11 @@
           "horaInicio": "9:40",
           "horaFin": "10:25",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -975,7 +992,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1009,7 +1027,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1043,7 +1062,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1077,7 +1097,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1111,7 +1132,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1179,7 +1201,11 @@
           "horaInicio": "9:40",
           "horaFin": "10:25",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -1293,12 +1319,9 @@
           "materiaCrudo": "Creatividad e Innovación \nen Ingeniería",
           "docentesCrudo": "Mana, Franco\nGimenez Zens, Ines Luz",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E3",
-            "opciones": [
-              "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Creatividad e Innovación en Ingeniería",
+            "nombreCanonico": "Creatividad e Innovación en Ingeniería"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -1307,12 +1330,9 @@
           "materiaCrudo": "Decisiones en \nEscenarios Complejos",
           "docentesCrudo": "Carignano, Claudia Etna\nRustan, Silvina",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E1",
-            "opciones": [
-              "Decisiones en Escenarios Complejos",
-              "Gerenciamiento Estratégico"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Decisiones en Escenarios Complejos",
+            "nombreCanonico": "Decisiones en Escenarios Complejos"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -1324,6 +1344,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -1334,12 +1355,9 @@
           "materiaCrudo": "Consultoría en Negocios \nDigitales",
           "docentesCrudo": "Gigena, Elias Fernando\nBalut Cabezas, Jorge Ariel",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E3",
-            "opciones": [
-              "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Consultoría en Negocios Digitales",
+            "nombreCanonico": "Consultoría en Negocios Digitales"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -1348,11 +1366,9 @@
           "materiaCrudo": "Emprendimientos \nTecnológicos",
           "docentesCrudo": "Casali, Diego Rafael",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E2",
-            "opciones": [
-              "Emprendimientos Tecnológicos"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Emprendimientos Tecnológicos",
+            "nombreCanonico": "Emprendimientos Tecnológicos"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -1361,12 +1377,9 @@
           "materiaCrudo": "Gerenciamiento \nEstratégico",
           "docentesCrudo": "Gigena, Elias Fernando\nBalut Cabezas, Jorge Ariel",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E1",
-            "opciones": [
-              "Decisiones en Escenarios Complejos",
-              "Gerenciamiento Estratégico"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Gerenciamiento Estratégico",
+            "nombreCanonico": "Gerenciamiento Estratégico"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -1459,7 +1472,11 @@
           "horaInicio": "14:55",
           "horaFin": "15:40",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -1740,7 +1757,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1771,7 +1789,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1802,7 +1821,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -1828,7 +1848,11 @@
           "horaInicio": "15:40",
           "horaFin": "16:25",
           "materiaCrudo": "CCD - E4",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -2019,6 +2043,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2049,6 +2074,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2079,6 +2105,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2110,7 +2137,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -2141,7 +2169,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -2172,7 +2201,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -2219,6 +2249,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2252,6 +2283,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2285,6 +2317,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2362,12 +2395,9 @@
           "materiaCrudo": "Creatividad e Innovación \nen Ingeniería",
           "docentesCrudo": "Mana, Franco\nGimenez Zens, Ines Luz",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E3",
-            "opciones": [
-              "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Creatividad e Innovación en Ingeniería",
+            "nombreCanonico": "Creatividad e Innovación en Ingeniería"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -2376,12 +2406,9 @@
           "materiaCrudo": "Decisiones en \nEscenarios Complejos",
           "docentesCrudo": "Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E1",
-            "opciones": [
-              "Decisiones en Escenarios Complejos",
-              "Gerenciamiento Estratégico"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Decisiones en Escenarios Complejos",
+            "nombreCanonico": "Decisiones en Escenarios Complejos"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -2393,6 +2420,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2403,12 +2431,9 @@
           "materiaCrudo": "Consultoría en \nNegocios Digitales",
           "docentesCrudo": "Martinez, Daniel Ignacio\nBalut Cabezas, Jorge Ariel\nGigena, Elias Fernando",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E3",
-            "opciones": [
-              "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Consultoría en Negocios Digitales",
+            "nombreCanonico": "Consultoría en Negocios Digitales"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -2417,12 +2442,9 @@
           "materiaCrudo": "Gerenciamiento \nEstratégico",
           "docentesCrudo": "Martinez, Daniel Ignacio\nGigena, Elias Fernando\nBalut Cabezas, Jorge Ariel",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E1",
-            "opciones": [
-              "Decisiones en Escenarios Complejos",
-              "Gerenciamiento Estratégico"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Gerenciamiento Estratégico",
+            "nombreCanonico": "Gerenciamiento Estratégico"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -2430,7 +2452,11 @@
         {
           "materiaCrudo": "Seguridad en el \nDesarrollo de Software",
           "docentesCrudo": "Parisi, Germán Nicolás\nBarrionuevo, Ileana Maricel\nHick, Lucas Michel Karim",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Seguridad en el Desarrollo de Software",
+            "nombreCanonico": "Seguridad en el Desarrollo de Software"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         }
@@ -2456,6 +2482,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2486,6 +2513,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2516,6 +2544,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2559,7 +2588,14 @@
           "horaInicio": "20:40",
           "horaFin": "21:25",
           "materiaCrudo": "Electiva 4 - E5",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -2586,7 +2622,14 @@
           "horaInicio": "21:35",
           "horaFin": "22:20",
           "materiaCrudo": "Electiva 4 - E5",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -2613,7 +2656,14 @@
           "horaInicio": "22:20",
           "horaFin": "23:05",
           "materiaCrudo": "Electiva 4 - E5",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -2847,7 +2897,11 @@
           "horaInicio": "19:55",
           "horaFin": "20:40",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -2959,6 +3013,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -2975,6 +3030,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -3005,6 +3061,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -3031,7 +3088,14 @@
           "horaInicio": "19:55",
           "horaFin": "20:40",
           "materiaCrudo": "Electiva 4",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -3139,7 +3203,14 @@
           "horaInicio": "18:15",
           "horaFin": "19:00",
           "materiaCrudo": "Electiva 4 - E5",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -3163,7 +3234,14 @@
           "horaInicio": "19:00",
           "horaFin": "19:45",
           "materiaCrudo": "Electiva 4 - E5",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -3187,7 +3265,14 @@
           "horaInicio": "19:55",
           "horaFin": "20:40",
           "materiaCrudo": "Electiva 4 - E5",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E4",
+            "opciones": [
+              "Seguridad en el Desarrollo de Software",
+              "Desarrollo de Tecnología Blockchain"
+            ]
+          },
           "colorRgb": null
         },
         {
@@ -3211,7 +3296,11 @@
           "horaInicio": "20:40",
           "horaFin": "21:25",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -3376,12 +3465,9 @@
           "materiaCrudo": "Decisiones en \nEscenarios Complejos",
           "docentesCrudo": "Rustan, Silvina\nGualpa, Mariano Martín",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E1",
-            "opciones": [
-              "Decisiones en Escenarios Complejos",
-              "Gerenciamiento Estratégico"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Decisiones en Escenarios Complejos",
+            "nombreCanonico": "Decisiones en Escenarios Complejos"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -3390,11 +3476,9 @@
           "materiaCrudo": "Emprendimientos \nTecnológicos",
           "docentesCrudo": "Barra, Mario Augusto\nGalvan, Diego Roman",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E2",
-            "opciones": [
-              "Emprendimientos Tecnológicos"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Emprendimientos Tecnológicos",
+            "nombreCanonico": "Emprendimientos Tecnológicos"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -3403,12 +3487,9 @@
           "materiaCrudo": "Gerenciamiento \nEstratégico",
           "docentesCrudo": "Srur, Leandro Paolo\nMartinez, Daniel Ignacio\nRuffinatti, Adrian Feliciano",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E1",
-            "opciones": [
-              "Decisiones en Escenarios Complejos",
-              "Gerenciamiento Estratégico"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Gerenciamiento Estratégico",
+            "nombreCanonico": "Gerenciamiento Estratégico"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -3423,14 +3504,22 @@
         {
           "materiaCrudo": "Desarrollo con \nTecnologías Blockchain",
           "docentesCrudo": "Medina, Oscar Carlos\nRomero, Rubén Aníbal",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Tecnología Blockchain",
+            "nombreCanonico": "Desarrollo de Tecnología Blockchain"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         },
         {
           "materiaCrudo": "Testing de \nSoftware",
           "docentesCrudo": "Montoya, Fanny Esther\nBravo, Estela Maris\nNieto, Claudia Andrea",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Testing de Software",
+            "nombreCanonico": "Testing de Software"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         }
@@ -3470,6 +3559,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -3500,6 +3590,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -3530,6 +3621,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -3561,7 +3653,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -3592,7 +3685,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -3623,7 +3717,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -3887,7 +3982,11 @@
           "horaInicio": "19:55",
           "horaFin": "20:40",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -4008,6 +4107,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -4038,6 +4138,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -4068,6 +4169,7 @@
             "tipo": "huecoElectivo",
             "hueco": "E2",
             "opciones": [
+              "Habilidades blandas",
               "Emprendimientos Tecnológicos"
             ]
           },
@@ -4262,7 +4364,11 @@
           "horaInicio": "19:55",
           "horaFin": "20:40",
           "materiaCrudo": "CCD",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
           "colorRgb": null
         },
         {
@@ -4308,7 +4414,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -4342,7 +4449,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -4376,7 +4484,8 @@
             "hueco": "E3",
             "opciones": [
               "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
+              "Consultoría en Negocios Digitales",
+              "Decisiones en Escenarios Complejos"
             ]
           },
           "colorRgb": null
@@ -4442,12 +4551,9 @@
           "materiaCrudo": "Creatividad e Innovación \nen Ingeniería",
           "docentesCrudo": "Cuevas, Juan Carlos\nGimenez Zens, Ines Luz",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E3",
-            "opciones": [
-              "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Creatividad e Innovación en Ingeniería",
+            "nombreCanonico": "Creatividad e Innovación en Ingeniería"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -4456,12 +4562,9 @@
           "materiaCrudo": "Consultoría en \nNegocios Digitales",
           "docentesCrudo": "Srur, Leandro Paolo\nRuffinatti, Adrian Feliciano\nMartinez, Daniel Ignaci",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E3",
-            "opciones": [
-              "Creatividad e Innovación en Ingeniería",
-              "Consultoría en Negocios Digitales"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Consultoría en Negocios Digitales",
+            "nombreCanonico": "Consultoría en Negocios Digitales"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -4470,11 +4573,9 @@
           "materiaCrudo": "Emprendimientos \nTecnológicos",
           "docentesCrudo": "Sacco, Pablo Alberto\nCallejas, Marisa Del Carmen",
           "materiaMatch": {
-            "tipo": "huecoElectivo",
-            "hueco": "E2",
-            "opciones": [
-              "Emprendimientos Tecnológicos"
-            ]
+            "tipo": "electiva",
+            "nombreElectiva": "Emprendimientos Tecnológicos",
+            "nombreCanonico": "Emprendimientos Tecnológicos"
           },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
@@ -4482,14 +4583,22 @@
         {
           "materiaCrudo": "Seguridad en el Desarrollo \nde Software",
           "docentesCrudo": "Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Seguridad en el Desarrollo de Software",
+            "nombreCanonico": "Seguridad en el Desarrollo de Software"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         },
         {
           "materiaCrudo": "Integración de Aplicaciones \nen Entorno Web",
           "docentesCrudo": "Romero, María Soledad\nRomero, Rubén Aníbal",
-          "materiaMatch": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Integración de Aplicaciones en Entorno Web",
+            "nombreCanonico": "Integración de Aplicaciones en Entorno Web"
+          },
           "colorRgbMateria": null,
           "colorRgbDocentes": null
         }

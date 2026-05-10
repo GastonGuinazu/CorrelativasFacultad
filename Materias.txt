@@ -2,12 +2,17 @@ SSI = Seguridad en los Sistemas de Información
 Proyecto FInal = Proyecto Final
 GG = Gestión Gerencial
 SG = Sistemas de Gestión
-Ciencia de Datos = Ciencia de Datos
+CCD = Ciencia de Datos
 IA  = Inteligencia Artificial
 Ingeniería de Software = Ingeniería de Software de Fuentes Abierrtas-Libre (Electiva)
 Electiva 1 / E1 = Decisiones en Escenarios Complejos -- Gerenciamiento Estratégico (Electiva, una materio o la otra)
 Electiva 2 / E2 = Habilidades blandas  -- Emprendimientos Tecnológicos ( Electiva, una materio o la otra)
+Electiva 2 / E2 = Habilidades blandas
 Electiva 3 / E3 = Creatividad e Innovación en Ingeniería  -- Consultoría en Negocios Digitales (Electiva, una materio o la otra)
+Electiva 3 / E3 = Decisiones en Escenarios Complejos -- Consultoría en Negocios Digitales (Electivas, una materia o la otra)
+Electiva 4 / E4 = Seguridad en el Desarrollo de Software
+Electiva 4 / E4 = Desarrollo con Tecnologías Blockchain
+Electiva 5 / E5 = Emprendimientos Tecnológicos 
 
 AS = Administración de Sistemas
 IOP =  Investigación Operativa
@@ -22,8 +27,7 @@ E1 // Electiva 1 = Gestión de la Mejora de Procesos -- Gestión Industrial de l
 E1 // Electiva 1 = Gestión de la Mejora de Procesos -- Green Software (Electivas, una de las dos)
 E2 // Electiva 2 = Desarrollo y Operaciones DevOps -- Gestión de la Mejora de Procesos (Electivas, una de las dos)
 E2 // Electiva 2 = Gestión Industrial de la Producción
-E2 // Electiva 2 = Green Software
-Seguridad en el Desarrollo de Software (electiva)
+E2 // Electiva 2 = Green SoftwareSeguridad en el Desarrollo de Software (electiva)
 
 
 DSI = Diseño de Sistemas

@@ -25,6 +25,23 @@ test('matchMateriaAlias: IA token vs frase larga', async () => {
   assert.equal(matchMateriaAlias('IA', aliases)?.id, 31);
   assert.equal(matchMateriaAlias('Inteligencia Artificial', aliases)?.id, 31);
   assert.equal(matchMateriaAlias('Electiva 1', aliases)?.hueco, 'E1');
+  assert.equal(matchMateriaAlias('CCD', aliases)?.id, 32);
+});
+
+test('matchMateriaAlias: electivas y huecos E4/E5 (5.º año)', async () => {
+  const aliases = JSON.parse(await readFile(join(__dirname, 'aliases-v5.json'), 'utf8'));
+  assert.equal(matchMateriaAlias('Electiva 4', aliases)?.hueco, 'E4');
+  assert.equal(matchMateriaAlias('Electiva 5', aliases)?.hueco, 'E5');
+  assert.equal(matchMateriaAlias('Electiva 4 - E5', aliases)?.hueco, 'E4');
+  const blockchain = matchMateriaAlias('Desarrollo con Tecnologías Blockchain', aliases);
+  assert.equal(blockchain?.tipo, 'electiva');
+  assert.equal(blockchain?.nombreCanonico, 'Desarrollo de Tecnología Blockchain');
+  const segDes = matchMateriaAlias('Seguridad en el Desarrollo de Software', aliases);
+  assert.equal(segDes?.tipo, 'electiva');
+  assert.equal(segDes?.nombreCanonico, 'Seguridad en el Desarrollo de Software');
+  const isfd = matchMateriaAlias('Ingeniería de Software de Fuentes Abierrtas-Libre', aliases);
+  assert.equal(isfd?.tipo, 'electiva');
+  assert.equal(isfd?.nombreCanonico, 'Ingeniería de Software de Fuentes Abiertas/Libres');
 });
 
 test('matchMateriaAlias: IS y AS no matchean substring en nombres largos (4.º año)', async () => {
@@ -33,6 +50,19 @@ test('matchMateriaAlias: IS y AS no matchean substring en nombres largos (4.º a
   assert.equal(matchMateriaAlias('AS', aliases)?.id, 30);
   assert.equal(matchMateriaAlias('Legislación', aliases)?.id, 24);
   assert.equal(matchMateriaAlias('TA', aliases)?.id, 29);
+});
+
+test('matchMateriaAlias: CCD → Ciencia de Datos (4.º año)', async () => {
+  const aliases = JSON.parse(await readFile(join(__dirname, 'aliases-v4.json'), 'utf8'));
+  assert.equal(matchMateriaAlias('CCD', aliases)?.id, 32);
+  assert.equal(matchMateriaAlias('CCD - E4', aliases)?.id, 32);
+  assert.equal(matchMateriaAlias('Ciencia de Datos', aliases)?.id, 32);
+});
+
+test('matchMateriaAlias: typos planilla 1.º año (Sitemas, Algortimos)', async () => {
+  const aliases = JSON.parse(await readFile(join(__dirname, 'aliases-v1.json'), 'utf8'));
+  assert.equal(matchMateriaAlias('Sitemas y\nProcesos de\nNegocios', aliases)?.id, 8);
+  assert.equal(matchMateriaAlias('Algortimos\ny Estructuras\nde Datos', aliases)?.id, 6);
 });
 
 test('parseSheetTab: grilla mínima tipo planilla facultad (5.º año: horas A–B, días desde C)', async () => {

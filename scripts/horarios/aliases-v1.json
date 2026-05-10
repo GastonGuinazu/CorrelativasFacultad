@@ -1,5 +1,5 @@
 {
-  "$schema_comment": "1.º año — abreviaturas planilla UTN; Álgebra/AGA → Álgebra y Geometría Analítica (id 2).",
+  "$schema_comment": "1.º año — abreviaturas planilla UTN; Álgebra/AGA → Álgebra y Geometría Analítica (id 2). Incluye errores de tipeo frecuentes en la planilla (p. ej. Sitemas, Algortimos).",
   "obligatoriasPorId": {
     "1": {
       "nombreCanonico": "Análisis Matemático I",
@@ -39,7 +39,9 @@
         "AED",
         "Algoritmos y Estructuras de Datos",
         "Algoritmo y Estructura de Datos",
-        "Algoritmos y Estructura de Datos"
+        "Algoritmos y Estructura de Datos",
+        "Algortimos y Estructuras de Datos",
+        "Algortimos y Estructura de Datos"
       ]
     },
     "7": {
@@ -56,7 +58,9 @@
         "SPN",
         "Sistemas y Procesos de Negocios",
         "Sistemas y Proceso de Negocios",
-        "Sistemas y Proceso de Negocio"
+        "Sistemas y Proceso de Negocio",
+        "Sitemas y Procesos de Negocios",
+        "Sitemas y Proceso de Negocios"
       ]
     },
     "11": {

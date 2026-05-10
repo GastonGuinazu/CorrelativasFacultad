@@ -1,13 +1,13 @@
 {
-  "$schema_comment": "Patrones en texto de planilla → match en materias.json; matching case-insensitive y por inclusión.",
+  "$schema_comment": "5.º año — UTN FRC. Patrones → match en materias.json. Obligatorias con id 31–36. Las electivas con nombre canónico del catálogo matchean antes que huecos E1–E5 (evita que “Emprendimientos…” caiga siempre en E2). Los huecos listan las opciones posibles por celda genérica “Electiva N”; la misma línea en distintas comisiones puede usar otro par de materias — las opciones son la unión por hueco. “Habilidades blandas” no está en materias.json: solo matchea vía hueco E2.",
   "obligatoriasPorId": {
     "31": {
       "nombreCanonico": "Inteligencia Artificial",
-      "patrones": ["IA", "Inteligencia Artificial", "Inteligencia Artificial"]
+      "patrones": ["IA", "Inteligencia Artificial"]
     },
     "32": {
       "nombreCanonico": "Ciencia de Datos",
-      "patrones": ["Ciencia de Datos", "CD"]
+      "patrones": ["Ciencia de Datos", "CD", "CCD"]
     },
     "33": {
       "nombreCanonico": "Sistemas de Gestión",
@@ -19,7 +19,7 @@
     },
     "35": {
       "nombreCanonico": "Seguridad en los Sistemas de Información",
-      "patrones": ["SSI", "Seguridad en los Sistemas", "Seguridad SI"]
+      "patrones": ["SSI", "Seguridad en los Sistemas de Información", "Seguridad en los Sistemas", "Seguridad SI"]
     },
     "36": {
       "nombreCanonico": "Proyecto Final",
@@ -29,25 +29,94 @@
   "electivasPorNombre": {
     "Ingeniería de Software de Fuentes Abiertas/Libres": {
       "patrones": [
+        "Ingeniería de Software de Fuentes Abiertas/Libres",
+        "Ingeniería de Software de Fuentes Abierrtas-Libre",
         "Ingeniería de Software",
         "Ingenieria de Software",
         "ISFD",
         "Fuentes Abiertas",
-        "Fuentes Libres"
+        "Fuentes Libres",
+        "Fuentes Abierrtas",
+        "Abierrtas-Libre",
+        "Abierrtas"
       ]
+    },
+    "Decisiones en Escenarios Complejos": {
+      "patrones": [
+        "Decisiones en Escenarios Complejos",
+        "Decisiones en Escenarios"
+      ]
+    },
+    "Gerenciamiento Estratégico": {
+      "patrones": [
+        "Gerenciamiento Estratégico",
+        "Gerenciamiento Estrategico",
+        "Gerenciamiento"
+      ]
+    },
+    "Creatividad e Innovación en Ingeniería": {
+      "patrones": [
+        "Creatividad e Innovación en Ingeniería",
+        "Creatividad e Innovacion en Ingeniería",
+        "Creatividad e Innovación",
+        "Creatividad"
+      ]
+    },
+    "Consultoría en Negocios Digitales": {
+      "patrones": [
+        "Consultoría en Negocios Digitales",
+        "Consultoria en Negocios Digitales",
+        "Consultoría en Negocios"
+      ]
+    },
+    "Seguridad en el Desarrollo de Software": {
+      "patrones": [
+        "Seguridad en el Desarrollo de Software",
+        "Seguridad en el Desarrollo"
+      ]
+    },
+    "Desarrollo de Tecnología Blockchain": {
+      "patrones": [
+        "Desarrollo de Tecnología Blockchain",
+        "Desarrollo con Tecnologías Blockchain",
+        "Desarrollo con Tecnologia Blockchain",
+        "Tecnologías Blockchain",
+        "Tecnologia Blockchain"
+      ]
+    },
+    "Emprendimientos Tecnológicos": {
+      "patrones": [
+        "Emprendimientos Tecnológicos",
+        "Emprendimientos Tecnologicos",
+        "Emprendimientos"
+      ]
+    },
+    "Testing de Software": {
+      "patrones": ["Testing de Software", "Testing Software"]
+    },
+    "Integración de Aplicaciones en Entorno Web": {
+      "patrones": [
+        "Integración de Aplicaciones en Entorno Web",
+        "Integracion de Aplicaciones en Entorno Web",
+        "Integración de Aplicaciones"
+      ]
+    },
+    "Auditorías de Si/Ti": {
+      "patrones": ["Auditorías de Si/Ti", "Auditorias de Si/Ti", "Auditorías de Si", "Auditorias de Si"]
     }
   },
   "huecosElectivos": {
     "E1": {
       "opciones": ["Decisiones en Escenarios Complejos", "Gerenciamiento Estratégico"],
-      "patrones": ["Electiva 1", "E1", "Decisiones", "Gerenciamiento"]
+      "patrones": ["Electiva 1", "E1"]
     },
     "E2": {
-      "opciones": ["Emprendimientos Tecnológicos"],
+      "opciones": ["Habilidades blandas", "Emprendimientos Tecnológicos"],
       "patrones": [
         "Electiva 2",
         "E2",
-        "Emprendimientos",
+        "Electiva 2 - E3",
+        "Electiva 2 - E4",
         "Habilidades blandas",
         "Habilidades Blandas"
       ]
@@ -55,9 +124,18 @@
     "E3": {
       "opciones": [
         "Creatividad e Innovación en Ingeniería",
-        "Consultoría en Negocios Digitales"
+        "Consultoría en Negocios Digitales",
+        "Decisiones en Escenarios Complejos"
       ],
-      "patrones": ["Electiva 3", "E3", "Creatividad", "Consultoría en Negocios", "Consultoria"]
+      "patrones": ["Electiva 3", "E3", "Electiva 3 - E4"]
+    },
+    "E4": {
+      "opciones": ["Seguridad en el Desarrollo de Software", "Desarrollo de Tecnología Blockchain"],
+      "patrones": ["Electiva 4", "E4", "Electiva 4 - E5"]
+    },
+    "E5": {
+      "opciones": ["Emprendimientos Tecnológicos"],
+      "patrones": ["Electiva 5", "E5"]
     }
   }
 }

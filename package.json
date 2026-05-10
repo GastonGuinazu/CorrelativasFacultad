@@ -14,6 +14,7 @@
     "horarios:fetch:segundo": "node scripts/horarios/build-horarios.mjs segundo",
     "horarios:fetch:primero": "node scripts/horarios/build-horarios.mjs primero",
     "test:horarios": "node --test scripts/horarios/*.test.mjs",
+    "horarios:validate": "node scripts/horarios/validate-generated-json.mjs",
     "horarios:debug": "node scripts/horarios/debug-sheet.mjs"
   },
   "private": true,

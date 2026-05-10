@@ -28,6 +28,10 @@
     "30": {
       "nombreCanonico": "Administración de Sistemas de Información",
       "patrones": ["AS", "Administración de Sistemas", "Administracion de Sistemas"]
+    },
+    "32": {
+      "nombreCanonico": "Ciencia de Datos",
+      "patrones": ["Ciencia de Datos", "CCD", "CD"]
     }
   },
   "electivasPorNombre": {
