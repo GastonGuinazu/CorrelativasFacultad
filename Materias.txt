@@ -1,0 +1,69 @@
+SSI = Seguridad en los Sistemas de Información
+Proyecto FInal = Proyecto Final
+GG = Gestión Gerencial
+SG = Sistemas de Gestión
+Ciencia de Datos = Ciencia de Datos
+IA  = Inteligencia Artificial
+Ingeniería de Software = Ingeniería de Software de Fuentes Abierrtas-Libre (Electiva)
+Electiva 1 / E1 = Decisiones en Escenarios Complejos -- Gerenciamiento Estratégico (Electiva, una materio o la otra)
+Electiva 2 / E2 = Habilidades blandas  -- Emprendimientos Tecnológicos ( Electiva, una materio o la otra)
+Electiva 3 / E3 = Creatividad e Innovación en Ingeniería  -- Consultoría en Negocios Digitales (Electiva, una materio o la otra)
+
+AS = Administración de Sistemas
+IOP =  Investigación Operativa
+SIM = Simulación
+RED = Redes de Datos
+Legislación = Legislación
+TA = Tecnología para la Automatización
+IS = Ingeniería y calidad de Software
+Aclaracion: Se repite porque dependiendo la "hoja" que analices puede ser distinta combinacion, tene cuidado y analiza los colores en cada curso.
+DAO = Desarrollo de Aplicaciones con Objetos  // Desarrollo de Aplicaciones (es la misma materia, aparecen con distinto nombre)
+E1 // Electiva 1 = Gestión de la Mejora de Procesos -- Gestión Industrial de la Producción (Electivas, una de las dos)
+E1 // Electiva 1 = Gestión de la Mejora de Procesos -- Green Software (Electivas, una de las dos)
+E2 // Electiva 2 = Desarrollo y Operaciones DevOps -- Gestión de la Mejora de Procesos (Electivas, una de las dos)
+E2 // Electiva 2 = Gestión Industrial de la Producción
+E2 // Electiva 2 = Green Software
+Seguridad en el Desarrollo de Software (electiva)
+
+
+DSI = Diseño de Sistemas
+DDS = Desarrollo de Software
+ECO = Economía
+ANU = Análisis Numérico
+COM = Comunicación de Datos
+Elec / Elect = Backend - Backend de Aplicaciones (Electiva, misma materia con distintos nombres)
+Inglés 2 = Inglés 2
+Base de Datos = Base de Datos
+Seminario Integrador = Seminario Integrador
+
+Análisis 2 = Análisis Matemático II
+SOP = Sistemas Operativos
+ASI = Análisis de sistemas
+Física 2 = Física 2
+SSL = Sintáxis y Semántica de los Lenguajes - Sintáxis y Semántica (misma materia distintos nombres)
+PYE = Probabilidad y Estadísitica
+PPR = Paradigmas de Programación
+
+Análisis 1 = Análisis Matemático I
+Física 1 = Física 1
+AED = Algoritmos y Estructuras de Datos
+LED = Lógica y Estructuras Discretas
+SPN = Sistemas y Procesos de Negocios
+Álgebra / AGA = Álgebra -- Álgebra y Geometría Analítica (Misma materia con distinto nombre)
+Inglés 1 = Inglés 1
+ACO / Arquitectura de Computadoras = Arquitectura de Computadoras
+ISO / Ingeniería y Sociedad = Ingeniería y Sociedad
+
+
+
+
+
+
+
+
+
+
+
+
+
+

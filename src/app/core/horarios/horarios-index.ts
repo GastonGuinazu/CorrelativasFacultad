@@ -7,6 +7,7 @@ import {
 import { MateriaCatalogo, MateriaId } from '../models/materia.model';
 import { OfertaCursoHorario } from '../models/cronograma-armado.model';
 import { normalizeLoose } from '../utils/materia-match-label';
+import { huecosPermitidosParaElectiva } from './electiva-hueco-restricciones';
 
 export function materiaCatalogMatchesMatch(
   m: MateriaCatalogo,
@@ -24,10 +25,17 @@ export function materiaCatalogMatchesMatch(
     );
   }
   if (match.tipo === 'huecoElectivo') {
-    return (
-      m.esElectiva &&
-      match.opciones.some((op) => normalizeLoose(op) === normalizeLoose(m.nombre))
-    );
+    if (!m.esElectiva) return false;
+    if (
+      !match.opciones.some((op) => normalizeLoose(op) === normalizeLoose(m.nombre))
+    ) {
+      return false;
+    }
+    const soloHuecos = huecosPermitidosParaElectiva(m.nombre);
+    if (soloHuecos?.length) {
+      return soloHuecos.includes(match.hueco as 'E1' | 'E2');
+    }
+    return true;
   }
   return false;
 }

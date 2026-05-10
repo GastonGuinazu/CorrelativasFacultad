@@ -27,6 +27,14 @@ test('matchMateriaAlias: IA token vs frase larga', async () => {
   assert.equal(matchMateriaAlias('Electiva 1', aliases)?.hueco, 'E1');
 });
 
+test('matchMateriaAlias: IS y AS no matchean substring en nombres largos (4.º año)', async () => {
+  const aliases = JSON.parse(await readFile(join(__dirname, 'aliases-v4.json'), 'utf8'));
+  assert.equal(matchMateriaAlias('IS', aliases)?.id, 25);
+  assert.equal(matchMateriaAlias('AS', aliases)?.id, 30);
+  assert.equal(matchMateriaAlias('Legislación', aliases)?.id, 24);
+  assert.equal(matchMateriaAlias('TA', aliases)?.id, 29);
+});
+
 test('parseSheetTab: grilla mínima tipo planilla facultad (5.º año: horas A–B, días desde C)', async () => {
   const aliases = JSON.parse(await readFile(join(__dirname, 'aliases-v5.json'), 'utf8'));
 

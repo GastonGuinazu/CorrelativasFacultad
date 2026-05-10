@@ -8,8 +8,8 @@ description: >-
 # UI (Angular + Tailwind)
 
 - **Stack:** Angular 19 standalone; estilos con Tailwind 4; rutas en [`src/app/app.routes.ts`](src/app/app.routes.ts).
-- **Rutas de features:** `''` planificador, `mapa` mapa de correlatividades, `cursos-profes` horarios/docentes, `cronograma` armado de grilla semanal (materias disponibles + comisiones + solapes).
-- **`/cronograma`:** selector **1.er / 2.do** cuatrimestre arriba en full width; lista y comisiones filtradas por bloques del JSON; grilla con **columnas día = timeline continuo** (bloques en % 8:00–23:05, tramos fusionados como el resumen); panel `lg:sticky`; solapes en la misma franja horaria repartidos en columnas (`cronograma-armado.page.ts` + `core/utils/cronograma-resumen-horario.ts`).
+- **Rutas de features:** `''` planificador, `mapa` mapa de correlatividades, `cursos-profes` horarios/docentes (`etiquetaMatch` en [`materia-match-label.ts`](../../../src/app/core/utils/materia-match-label.ts): huecos E1/E2 no enumeran todas las opciones en cada fila), `cronograma` armado de grilla semanal (materias disponibles + comisiones + solapes).
+- **`/cronograma`:** aviso que enlaza al planificador (lista según correlativas y estado); selector **1.er / 2.do** cuatrimestre; grilla **timeline continuo** por día; `lg:sticky`; solapes en columnas (`cronograma-armado.page.ts` + `cronograma-resumen-horario.ts`). Hover en **Usar esta comisión** dibuja vista previa semitransparente; si solapa con materias ya elegidas, tono bordeaux/rojo.
 - **Patrones:** reutilizar componentes existentes bajo [`src/app/shared/`](src/app/shared) (modales, tarjetas, paneles) en lugar de duplicar markup o estilos.
 - **Tono:** UI clara y “family-friendly”; mantener coherencia tipográfica, espaciado y accesibilidad con lo ya presente en la app.
 

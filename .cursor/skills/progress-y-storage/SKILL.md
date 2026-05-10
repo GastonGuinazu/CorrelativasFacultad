@@ -8,7 +8,7 @@ description: >-
 # Progreso y almacenamiento
 
 - **Persistencia:** [`src/app/core/storage/progress-storage.ts`](src/app/core/storage/progress-storage.ts) — respetar el esquema guardado; si cambia la forma de los datos, valorar migración o compatibilidad hacia atrás.
-- **Estado reactivo:** [`src/app/core/state/progress.store.ts`](src/app/core/state/progress.store.ts) — mantener una sola fuente de verdad para estados por materia.
+- **Estado reactivo:** [`src/app/core/state/progress.store.ts`](src/app/core/state/progress.store.ts) — mantener una sola fuente de verdad para estados por materia. Atajo **`marcarNivelTodoAprobado(nivel)`** marca todas las materias de ese nivel del catálogo como `aprobada` (planificador).
 - **Progreso al título:** [`src/app/core/rules/progreso-titulo.ts`](src/app/core/rules/progreso-titulo.ts) — se basa en obligatorias del plan + créditos electivos requeridos; **no** en “aprobar todas las materias que aparecen en el JSON”.
 
 ## Tests

@@ -3,7 +3,7 @@
   "fuente": {
     "spreadsheetId": "1d7cmVHpu0GsMiyRMpf98lRI94_Q-RCqGHx20u2ER-eU",
     "url": "https://docs.google.com/spreadsheets/d/1d7cmVHpu0GsMiyRMpf98lRI94_Q-RCqGHx20u2ER-eU/edit",
-    "extraidoEn": "2026-05-10T02:40:01.825Z",
+    "extraidoEn": "2026-05-10T03:50:31.048Z",
     "anioCursado": 4
   },
   "cursos": [
@@ -160,8 +160,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -174,8 +174,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -547,8 +547,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -687,8 +687,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -701,8 +701,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -1244,8 +1244,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -1258,8 +1258,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -1328,8 +1328,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -1356,8 +1356,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -1608,8 +1608,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -1622,8 +1622,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -2007,8 +2007,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -2236,8 +2236,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -2250,8 +2250,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -2654,8 +2654,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -2752,8 +2752,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -2914,8 +2914,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -3244,8 +3244,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -3258,8 +3258,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -3364,8 +3364,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },
@@ -3448,8 +3448,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -3462,8 +3462,8 @@
           "materiaCrudo": "AS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 29,
-            "nombreCanonico": "Tecnologías Para la Automatización"
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
           },
           "colorRgb": null
         },
@@ -3937,8 +3937,8 @@
           "materiaCrudo": "IS",
           "materiaMatch": {
             "tipo": "obligatoria",
-            "id": 24,
-            "nombreCanonico": "Legislación"
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
           },
           "colorRgb": null
         },

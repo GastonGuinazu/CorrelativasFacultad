@@ -37,6 +37,10 @@ Sheets API + build-horarios.mjs → horarios-<año>.generated.json (public/data/
 | Páginas | [`cursos-profes.page.ts`](../../../src/app/features/cursos-profes/cursos-profes.page.ts), [`cronograma-armado.page.ts`](../../../src/app/features/cronograma-armado/cronograma-armado.page.ts) |
 | Rutas | `cursos-profes`, `cronograma` en [`app.routes.ts`](../../../src/app/app.routes.ts); `/horarios` → redirect a cursos-profes |
 
+## Match `match-alias.mjs`
+
+- Celda corta (≤4 caracteres normalizados) vs **patrón largo**: solo coincide si el texto corto es **token completo** en el patrón (evita que `IS`/`AS` se confundan con substrings tipo `…legisl…`, `tecnologías…`).
+
 ## Parser `parse-grid.mjs` (grilla)
 
 - Elige el encabezado Lunes…Viernes con **mayor score** (celdas de materia no vacías bajo filas de hora), no solo la primera fila con ≥3 días.
@@ -51,6 +55,7 @@ Sheets API + build-horarios.mjs → horarios-<año>.generated.json (public/data/
 
 - **Cursos y Profes:** selector **1.º–5.º año**; `?anio=1..5`. JSON según tabla arriba.
 - **Cronograma:** usa los cinco JSON; índice materia → comisiones en [`horarios-index.ts`](../../../src/app/core/horarios/horarios-index.ts) y solapes en [`cronograma-overlap.ts`](../../../src/app/core/rules/cronograma-overlap.ts).
+- Electivas con celda genérica **Electiva 1/2**: si una materia está en `opciones` de **E1 y E2** en aliases, el índice histórico matcheaba **ambos** huecos; restricciones opcionales por materia en [`electiva-hueco-restricciones.ts`](../../../src/app/core/horarios/electiva-hueco-restricciones.ts) (p. ej. Green Software solo **E1**).
 
 ## Operación
 

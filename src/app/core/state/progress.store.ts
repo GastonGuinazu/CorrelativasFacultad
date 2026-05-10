@@ -317,6 +317,19 @@ export class ProgressStore {
     }
   }
 
+  /** Marca todas las materias del catálogo de ese nivel como aprobadas (atajo para simular carrera). */
+  marcarNivelTodoAprobado(nivel: number): void {
+    this.estadosSignal.update((prev) => {
+      const next: MapaEstados = { ...prev };
+      for (const m of this.materias()) {
+        if (m.nivel === nivel) {
+          next[m.id] = 'aprobada';
+        }
+      }
+      return next;
+    });
+  }
+
   setEstado(id: MateriaId, estado: EstadoUsuario): void {
     const anterior = this.estadosSignal()[id] ?? 'pendiente';
     this.estadosSignal.update((prev) => {

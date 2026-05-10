@@ -15,6 +15,19 @@ export function normalizeText(s) {
     .trim();
 }
 
+/** Abreviaturas tipo "IA", "E1", "IS", "AS" — mismo umbral que patrones cortos */
+const SHORT_TOKEN_MAX_LEN = 4;
+
+/**
+ * Evita falsos positivos: texto corto dentro de nombre largo (p. ej. "is" ⊂ "legislacion", "as" ⊂ "tecnologias").
+ * @param {string} longNorm patrón largo ya normalizado
+ * @param {string} shortNorm celda corta ya normalizada
+ */
+function longPatternContainsShortAsWord(longNorm, shortNorm) {
+  const chunks = longNorm.split(/[\s,;/]+/).filter(Boolean);
+  return chunks.some((c) => c === shortNorm);
+}
+
 /**
  * Evita que abreviaturas cortas ("IA") matcheen dentro de frases largas.
  * @param {string} n texto normalizado
@@ -23,13 +36,17 @@ export function normalizeText(s) {
 function textMatchesPattern(n, pn) {
   if (!pn) return false;
   if (n === pn) return true;
-  /** Tokens tipo "IA", "E1", "SG" */
-  const SHORT = 4;
-  if (pn.length <= SHORT) {
+  if (pn.length <= SHORT_TOKEN_MAX_LEN) {
     const tokens = n.split(/[\s,;/]+/).filter(Boolean);
     return tokens.some((t) => t === pn);
   }
-  return n.includes(pn) || pn.includes(n);
+  if (n.includes(pn)) return true;
+  if (!pn.includes(n)) return false;
+  /** pn incluye n como substring; si n es abreviatura corta, exigir palabra/token completo en pn */
+  if (n.length <= SHORT_TOKEN_MAX_LEN) {
+    return longPatternContainsShortAsWord(pn, n);
+  }
+  return true;
 }
 
 /**

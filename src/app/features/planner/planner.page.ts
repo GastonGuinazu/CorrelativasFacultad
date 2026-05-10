@@ -151,22 +151,71 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
             <div
               class="flex flex-col gap-4 rounded-2xl border border-slate-300 bg-white p-5 shadow-sm"
             >
-              <header class="flex items-center justify-between">
-                <div class="flex items-center gap-2">
-                  <span
-                    class="flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-200 text-emerald-700"
-                  >
-                    <lucide-icon [name]="iconBook" class="h-5 w-5"></lucide-icon>
-                  </span>
-                  <div class="flex flex-col leading-tight">
-                    <h2 class="text-base font-semibold text-slate-900">
-                      Nivel {{ store.nivelActivo() }}
-                    </h2>
-                    <span class="text-xs text-slate-600">
-                      {{ store.evaluacionesNivelActivo().length }} materias
+              <header
+                class="flex flex-col gap-4 border-b border-slate-100 pb-4 lg:flex-row lg:items-center lg:justify-between lg:gap-3"
+              >
+                <div class="flex min-w-0 flex-1 flex-wrap items-center gap-3">
+                  <div class="flex items-center gap-2">
+                    <span
+                      class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-emerald-200 text-emerald-700"
+                    >
+                      <lucide-icon [name]="iconBook" class="h-5 w-5"></lucide-icon>
                     </span>
+                    <div class="flex flex-col leading-tight">
+                      <h2 class="text-base font-semibold text-slate-900">
+                        Nivel {{ store.nivelActivo() }}
+                      </h2>
+                      <span class="text-xs text-slate-600">
+                        {{ store.evaluacionesNivelActivo().length }} materias
+                      </span>
+                    </div>
                   </div>
+                  <button
+                    type="button"
+                    class="rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-900 transition hover:bg-emerald-100"
+                    (click)="marcarNivelTodoAprobado(store.nivelActivo())"
+                  >
+                    Marcar todo el nivel aprobado
+                  </button>
                 </div>
+
+                <nav
+                  class="flex shrink-0 flex-wrap items-center gap-1"
+                  aria-label="Cambiar nivel"
+                >
+                  <button
+                    type="button"
+                    class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                    [disabled]="!puedeRetroceder()"
+                    (click)="retroceder()"
+                    aria-label="Nivel anterior"
+                  >
+                    <lucide-icon [name]="iconLeft" class="h-4 w-4"></lucide-icon>
+                  </button>
+                  @for (n of store.nivelesDisponibles(); track n) {
+                    <button
+                      type="button"
+                      class="h-8 w-8 rounded-full text-sm font-medium transition"
+                      [class]="
+                        store.nivelActivo() === n
+                          ? 'bg-emerald-600 text-white shadow-sm'
+                          : 'text-slate-600 hover:bg-slate-200'
+                      "
+                      (click)="store.setNivelActivo(n); scrollToGrid()"
+                    >
+                      {{ n }}
+                    </button>
+                  }
+                  <button
+                    type="button"
+                    class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                    [disabled]="!puedeAvanzar()"
+                    (click)="avanzar()"
+                    aria-label="Nivel siguiente"
+                  >
+                    <lucide-icon [name]="iconRight" class="h-4 w-4"></lucide-icon>
+                  </button>
+                </nav>
               </header>
 
               @if (store.cargando()) {
@@ -202,6 +251,44 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                   }
                 </div>
               }
+
+              <nav
+                class="mt-4 flex flex-wrap items-center justify-center gap-1 border-t border-dashed border-slate-200 pt-4"
+                aria-label="Navegar entre niveles"
+              >
+                <button
+                  type="button"
+                  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                  [disabled]="!puedeRetroceder()"
+                  (click)="retroceder()"
+                  aria-label="Nivel anterior"
+                >
+                  <lucide-icon [name]="iconLeft" class="h-4 w-4"></lucide-icon>
+                </button>
+                @for (n of store.nivelesDisponibles(); track n) {
+                  <button
+                    type="button"
+                    class="h-9 w-9 rounded-full text-sm font-medium transition"
+                    [class]="
+                      store.nivelActivo() === n
+                        ? 'bg-emerald-600 text-white shadow-sm'
+                        : 'text-slate-600 hover:bg-slate-200'
+                    "
+                    (click)="store.setNivelActivo(n); scrollToGrid()"
+                  >
+                    {{ n }}
+                  </button>
+                }
+                <button
+                  type="button"
+                  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                  [disabled]="!puedeAvanzar()"
+                  (click)="avanzar()"
+                  aria-label="Nivel siguiente"
+                >
+                  <lucide-icon [name]="iconRight" class="h-4 w-4"></lucide-icon>
+                </button>
+              </nav>
             </div>
           </div>
 
@@ -211,46 +298,6 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
               [nombrePorId]="nombrePorId()"
               (verOpiniones)="abrirModalDetalles()"
             />
-          </div>
-        </section>
-
-        <section
-          class="flex items-center justify-between rounded-2xl border border-slate-300 bg-white px-4 py-3 shadow-sm"
-        >
-          <h3 class="text-base font-semibold text-slate-900">Materias por Nivel</h3>
-          <div class="flex items-center gap-1">
-            <button
-              type="button"
-              class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100"
-              [disabled]="!puedeRetroceder()"
-              (click)="retroceder()"
-              aria-label="Nivel anterior"
-            >
-              <lucide-icon [name]="iconLeft" class="h-4 w-4"></lucide-icon>
-            </button>
-            @for (n of store.nivelesDisponibles(); track n) {
-              <button
-                type="button"
-                class="h-8 w-8 rounded-full text-sm font-medium transition"
-                [class]="
-                  store.nivelActivo() === n
-                    ? 'bg-emerald-600 text-white shadow-sm'
-                    : 'text-slate-600 hover:bg-slate-200'
-                "
-                (click)="store.setNivelActivo(n); scrollToGrid()"
-              >
-                {{ n }}
-              </button>
-            }
-            <button
-              type="button"
-              class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100"
-              [disabled]="!puedeAvanzar()"
-              (click)="avanzar()"
-              aria-label="Nivel siguiente"
-            >
-              <lucide-icon [name]="iconRight" class="h-4 w-4"></lucide-icon>
-            </button>
           </div>
         </section>
       </main>
@@ -339,6 +386,15 @@ export class PlannerPage {
     ) {
       this.store.reiniciarProgreso();
     }
+  }
+
+  marcarNivelTodoAprobado(nivel: number): void {
+    if (typeof window === 'undefined') return;
+    const ok = window.confirm(
+      `¿Marcar todas las materias del nivel ${nivel} como aprobadas? Podés corregir el estado materia por materia después.`,
+    );
+    if (!ok) return;
+    this.store.marcarNivelTodoAprobado(nivel);
   }
 
   avanzar(): void {

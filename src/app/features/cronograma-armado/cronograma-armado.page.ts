@@ -7,7 +7,13 @@ import {
   signal,
 } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { LucideAngularModule, CalendarClock, GraduationCap, X } from 'lucide-angular';
+import {
+  LucideAngularModule,
+  CalendarClock,
+  GraduationCap,
+  Info,
+  X,
+} from 'lucide-angular';
 import { ProgressStore } from '../../core/state/progress.store';
 import { CronogramaHorariosService } from '../../core/horarios/cronograma-horarios.service';
 import { HorarioBloque, HorariosPayload } from '../../core/models/horarios-quinto.model';
@@ -38,6 +44,12 @@ const COLORES_SELECCION = [
   'bg-rose-600/90 border border-rose-400/50',
   'bg-teal-600/90 border border-teal-400/50',
 ];
+
+/** Vista previa al hover: semitransparente; si hay solape con selección → bordeaux */
+const CLASE_PREVIEW_OK =
+  'bg-cyan-500/35 border border-cyan-300/50 shadow-sm backdrop-blur-[1px]';
+const CLASE_PREVIEW_SOLAPE =
+  'bg-[#6b1c2a]/55 border border-rose-400/55 shadow-sm backdrop-blur-[1px]';
 
 type FiltroCuatrimestre = '1er' | '2do';
 
@@ -129,6 +141,32 @@ type FiltroCuatrimestre = '1er' | '2do';
         @if (!payloads().length) {
           <p class="text-sm text-slate-400">Cargando horarios…</p>
         } @else {
+          <div
+            class="mb-6 flex flex-col gap-3 rounded-2xl border border-slate-700 bg-slate-900/90 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div class="flex gap-3">
+              <span
+                class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-500/15 text-emerald-300"
+              >
+                <lucide-icon [name]="iconInfo" class="h-4 w-4"></lucide-icon>
+              </span>
+              <div class="min-w-0 text-sm text-slate-300">
+                <p class="font-medium text-slate-100">Tu lista depende del planificador</p>
+                <p class="mt-1 text-xs leading-snug text-slate-400">
+                  Solo ves materias que el motor marca como disponibles según correlativas y tu estado
+                  (pendiente, cursando, regular, aprobada). Si no coincide con tu situación real,
+                  actualizá el progreso en el planificador.
+                </p>
+              </div>
+            </div>
+            <a
+              routerLink="/"
+              class="inline-flex shrink-0 items-center justify-center rounded-xl bg-emerald-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-emerald-500"
+            >
+              Ir al planificador
+            </a>
+          </div>
+
           <div
             class="mb-6 flex flex-wrap items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900/80 px-4 py-3"
           >
@@ -236,6 +274,8 @@ type FiltroCuatrimestre = '1er' | '2do';
                             type="button"
                             class="mt-2 w-full rounded-lg bg-emerald-600 px-2 py-1.5 text-xs font-medium text-white hover:bg-emerald-500"
                             (click)="agregarSeleccion(ex, o)"
+                            (mouseenter)="previewEntrar(o)"
+                            (mouseleave)="previewSalir()"
                           >
                             Usar esta comisión
                           </button>
@@ -330,6 +370,9 @@ type FiltroCuatrimestre = '1er' | '2do';
                               <div
                                 class="absolute rounded px-0.5 py-0.5 text-[11px] leading-snug text-white shadow-sm overflow-hidden"
                                 [class]="bloque.clase"
+                                [class.pointer-events-none]="bloque.esPreview"
+                                [class.opacity-95]="bloque.esPreview"
+                                [class.opacity-100]="!bloque.esPreview"
                                 [style.top.%]="bloque.top"
                                 [style.height.%]="bloque.height"
                                 [style.left.%]="bloque.leftPct"
@@ -362,6 +405,7 @@ export class CronogramaArmadoPage {
 
   readonly iconCap = GraduationCap;
   readonly iconClock = CalendarClock;
+  readonly iconInfo = Info;
   readonly iconX = X;
 
   readonly payloads = signal<HorariosPayload[]>([]);
@@ -370,6 +414,8 @@ export class CronogramaArmadoPage {
   readonly mensajeSolape = signal<string | null>(null);
   readonly cuatrimestreFiltro = signal<FiltroCuatrimestre>('1er');
   readonly avisoFiltro = signal<string | null>(null);
+  /** Comisión bajo el botón "Usar esta comisión" (solo vista previa en grilla). */
+  readonly previewOfertaTrack = signal<string | null>(null);
 
   readonly dias = DIAS;
 
@@ -440,6 +486,7 @@ export class CronogramaArmadoPage {
     this.cuatrimestreFiltro.set(f);
     this.mensajeSolape.set(null);
     this.avisoFiltro.set(null);
+    this.previewOfertaTrack.set(null);
 
     this.selecciones.update((list) =>
       list.filter((s) => this.filtrarBloquesCon(s.oferta.bloques, f).length > 0),
@@ -461,10 +508,20 @@ export class CronogramaArmadoPage {
   explorarMateria(ev: EvaluacionMateria): void {
     this.materiaExploradaId.set(ev.materia.id);
     this.mensajeSolape.set(null);
+    this.previewOfertaTrack.set(null);
   }
 
   cerrarExplorada(): void {
     this.materiaExploradaId.set(null);
+    this.previewOfertaTrack.set(null);
+  }
+
+  previewEntrar(o: OfertaCursoHorario): void {
+    this.previewOfertaTrack.set(this.trackOferta(o));
+  }
+
+  previewSalir(): void {
+    this.previewOfertaTrack.set(null);
   }
 
   nombreMateria(id: MateriaId): string {
@@ -533,7 +590,7 @@ export class CronogramaArmadoPage {
 
   /**
    * Bloques en columna de día: posición % sobre el rango 8:00–23:05; tramos fusionados por recreo;
-   * carriles horizontales si hay solape entre materias.
+   * carriles horizontales si hay solape entre materias. Vista previa (hover) encima, semitransparente.
    */
   bloquesEnColumnaDia(dia: string): BloqueRender[] {
     const spanTotal = GRILLA_FIN_MIN - GRILLA_INICIO_MIN;
@@ -577,55 +634,118 @@ export class CronogramaArmadoPage {
       }
     });
 
+    let seleccionLayout: BloqueRender[];
+
     if (raw.length <= 1) {
-      return raw.map((r, i) => ({
+      seleccionLayout = raw.map((r, i) => ({
         ...r,
         leftPct: 0.5,
         widthPct: 99,
         zIndex: 10 + i,
+        esPreview: false,
       }));
-    }
+    } else {
+      const sorted = [...raw].sort(
+        (a, b) => a.clipIniRel - b.clipIniRel || a.clipFinRel - b.clipFinRel,
+      );
+      const laneEnd: number[] = [];
 
-    const sorted = [...raw].sort(
-      (a, b) => a.clipIniRel - b.clipIniRel || a.clipFinRel - b.clipFinRel,
-    );
-    const laneEnd: number[] = [];
-
-    for (const seg of sorted) {
-      let lane = -1;
-      for (let i = 0; i < laneEnd.length; i++) {
-        if (laneEnd[i] <= seg.clipIniRel + 0.01) {
-          lane = i;
-          laneEnd[i] = seg.clipFinRel;
-          break;
+      for (const seg of sorted) {
+        let lane = -1;
+        for (let i = 0; i < laneEnd.length; i++) {
+          if (laneEnd[i] <= seg.clipIniRel + 0.01) {
+            lane = i;
+            laneEnd[i] = seg.clipFinRel;
+            break;
+          }
         }
+        if (lane < 0) {
+          lane = laneEnd.length;
+          laneEnd.push(seg.clipFinRel);
+        }
+        (seg as RawSeg & { lane: number }).lane = lane;
       }
-      if (lane < 0) {
-        lane = laneEnd.length;
-        laneEnd.push(seg.clipFinRel);
-      }
-      (seg as RawSeg & { lane: number }).lane = lane;
+
+      const n = laneEnd.length;
+      const gap = 0.8;
+      const usable = 100 - gap * (n + 1);
+      const w = usable / n;
+
+      seleccionLayout = sorted.map((seg, i) => {
+        const lane = (seg as RawSeg & { lane: number }).lane;
+        const leftPct = gap + lane * (w + gap);
+        return {
+          top: seg.top,
+          height: seg.height,
+          clase: seg.clase,
+          etiqueta: seg.etiqueta,
+          track: `${seg.track}-L${lane}`,
+          leftPct,
+          widthPct: w,
+          zIndex: 10 + i,
+          esPreview: false,
+        };
+      });
     }
 
-    const n = laneEnd.length;
-    const gap = 0.8;
-    const usable = 100 - gap * (n + 1);
-    const w = usable / n;
+    const previewTrack = this.previewOfertaTrack();
+    const ex = this.materiaExplorada();
+    const previewOferta =
+      previewTrack && ex
+        ? this.ofertasExploradasFiltradas().find((o) => this.trackOferta(o) === previewTrack)
+        : undefined;
 
-    return sorted.map((seg, i) => {
-      const lane = (seg as RawSeg & { lane: number }).lane;
-      const leftPct = gap + lane * (w + gap);
-      return {
-        top: seg.top,
-        height: seg.height,
-        clase: seg.clase,
-        etiqueta: seg.etiqueta,
-        track: `${seg.track}-L${lane}`,
-        leftPct,
-        widthPct: w,
-        zIndex: 10 + i,
-      };
+    if (!previewOferta?.bloques?.length) {
+      return seleccionLayout;
+    }
+
+    const nombrePrev = ex?.materia.nombre ?? 'Vista previa';
+    const delDiaPrev = this.filtrarBloques(previewOferta.bloques).filter((b) => b.dia === dia);
+    const mergedPrev = fusionarIntervalosHorarioPorDia(delDiaPrev);
+    const previewBlocks: BloqueRender[] = [];
+
+    mergedPrev.forEach(({ ini, fin }, j) => {
+      const clipIni = Math.max(ini, GRILLA_INICIO_MIN);
+      const clipFin = Math.min(fin, GRILLA_FIN_MIN);
+      if (clipFin <= clipIni) return;
+
+      const clipIniRel = clipIni - GRILLA_INICIO_MIN;
+      const clipFinRel = clipFin - GRILLA_INICIO_MIN;
+      const top = (clipIniRel / spanTotal) * 100;
+      const height = ((clipFin - clipIni) / spanTotal) * 100;
+      const conflicto = this.intervaloSolapaConSeleccion(dia, clipIni, clipFin);
+
+      previewBlocks.push({
+        top,
+        height: Math.max(height, 0.35),
+        clase: conflicto ? CLASE_PREVIEW_SOLAPE : CLASE_PREVIEW_OK,
+        etiqueta: conflicto
+          ? `${nombrePrev} · solapa (${formatHoraMinutosMedianoche(clipIni)}–${formatHoraMinutosMedianoche(clipFin)})`
+          : `${nombrePrev} (${formatHoraMinutosMedianoche(clipIni)}–${formatHoraMinutosMedianoche(clipFin)})`,
+        track: `preview-${previewTrack}-${dia}-${j}`,
+        leftPct: 0.5,
+        widthPct: 99,
+        zIndex: 40 + j,
+        esPreview: true,
+      });
     });
+
+    return [...seleccionLayout, ...previewBlocks];
+  }
+
+  /** Solape temporal con algún bloque ya elegido (otras materias), mismo día. */
+  private intervaloSolapaConSeleccion(dia: string, iniMin: number, finMin: number): boolean {
+    for (const sel of this.selecciones()) {
+      const delDia = this.filtrarBloques(sel.oferta.bloques).filter((b) => b.dia === dia);
+      const merged = fusionarIntervalosHorarioPorDia(delDia);
+      for (const { ini, fin } of merged) {
+        const a = Math.max(ini, GRILLA_INICIO_MIN);
+        const b = Math.min(fin, GRILLA_FIN_MIN);
+        if (b <= a) continue;
+        if (a < finMin && iniMin < b) return true;
+      }
+    }
+    return false;
   }
 
   trackBloque(b: BloqueRender): string {
@@ -642,4 +762,6 @@ interface BloqueRender {
   leftPct: number;
   widthPct: number;
   zIndex: number;
+  /** Hover sobre “Usar esta comisión”; semitransparente sobre la grilla */
+  esPreview?: boolean;
 }
