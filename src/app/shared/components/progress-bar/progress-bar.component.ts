@@ -79,26 +79,26 @@ export class ProgressBarComponent {
 
   readonly labelTituloClass = computed(() => {
     if (this.tituloCompleto()) {
-      return 'font-medium transition-colors duration-500 text-amber-800';
+      return 'font-medium transition-colors duration-500 text-amber-200';
     }
     if (this.variant() === 'violet') {
-      return 'font-medium transition-colors duration-500 text-violet-900';
+      return 'font-medium transition-colors duration-500 text-violet-200';
     }
     if (this.variant() === 'slate') {
-      return 'font-medium transition-colors duration-500 text-slate-700';
+      return 'font-medium transition-colors duration-500 text-slate-300';
     }
     const band = this.bandaPaletaTitulo();
     switch (band) {
       case 'inicio':
-        return 'font-medium transition-colors duration-500 text-emerald-800';
+        return 'font-medium transition-colors duration-500 text-emerald-300';
       case 'ritmo':
-        return 'font-medium transition-colors duration-500 text-emerald-800';
+        return 'font-medium transition-colors duration-500 text-emerald-300';
       case 'consolidacion':
-        return 'font-medium transition-colors duration-500 text-emerald-900';
+        return 'font-medium transition-colors duration-500 text-emerald-200';
       case 'recta':
-        return 'font-medium transition-colors duration-500 text-emerald-950';
+        return 'font-medium transition-colors duration-500 text-emerald-200';
       default:
-        return 'font-medium transition-colors duration-500 text-slate-700';
+        return 'font-medium transition-colors duration-500 text-slate-300';
     }
   });
 
@@ -106,26 +106,26 @@ export class ProgressBarComponent {
     const base =
       'inline-flex items-center gap-1 font-semibold transition-all duration-500';
     if (this.tituloCompleto()) {
-      return `${base} text-amber-900 progress-bar-titulo-completo-pct animate-pulse`;
+      return `${base} text-amber-100 progress-bar-titulo-completo-pct animate-pulse`;
     }
     if (this.variant() === 'violet') {
-      return `${base} text-violet-800`;
+      return `${base} text-violet-100`;
     }
     if (this.variant() === 'slate') {
-      return `${base} text-slate-700`;
+      return `${base} text-slate-300`;
     }
     const band = this.bandaPaletaTitulo();
     switch (band) {
       case 'inicio':
-        return `${base} text-emerald-700`;
+        return `${base} text-emerald-300`;
       case 'ritmo':
-        return `${base} text-emerald-700`;
+        return `${base} text-emerald-300`;
       case 'consolidacion':
-        return `${base} text-emerald-800`;
+        return `${base} text-emerald-200`;
       case 'recta':
-        return `${base} text-emerald-900`;
+        return `${base} text-emerald-100`;
       default:
-        return `${base} text-emerald-700`;
+        return `${base} text-emerald-300`;
     }
   });
 
@@ -133,9 +133,9 @@ export class ProgressBarComponent {
     const base =
       'h-2 w-full overflow-hidden rounded-full transition-colors duration-500';
     if (this.variant() === 'emerald') {
-      return `${base} bg-slate-200/50`;
+      return `${base} bg-slate-700/70`;
     }
-    return `${base} bg-slate-300/80`;
+    return `${base} bg-slate-700/80`;
   });
 
   readonly trackClass = computed(() => {

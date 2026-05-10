@@ -34,7 +34,8 @@ import {
   resumenHorarioBloques,
 } from '../../core/utils/cronograma-resumen-horario';
 
-const DIAS = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'] as const;
+/** Columnas base del cronograma; puede sumarse Sábado si hay bloques ese día (p. ej. electiva de 5.º). */
+const DIAS_LUN_VIE = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'] as const;
 
 const COLORES_SELECCION = [
   'bg-emerald-600/90 border border-emerald-400/50',
@@ -331,29 +332,41 @@ type FiltroCuatrimestre = '1er' | '2do';
                 </div>
               }
 
-              <div class="overflow-x-auto rounded-2xl border border-slate-700 bg-slate-900 p-3">
-                <div class="min-w-[720px] text-xs">
+              <div
+                class="overflow-x-auto rounded-2xl border border-slate-700 bg-slate-900 py-3 pr-3 pl-1 sm:pl-1.5"
+              >
+                <div class="text-xs" [style.min-width.px]="anchoMinGrillaPx()">
                   <div class="flex gap-1">
-                    <div class="w-24 shrink-0"></div>
-                    <div class="grid min-w-0 flex-1 grid-cols-5 gap-x-1 text-center">
-                      @for (d of dias; track d) {
+                    <div class="w-16 shrink-0 sm:w-[4.5rem]"></div>
+                    <div
+                      class="grid min-w-0 flex-1 gap-x-1 text-center"
+                      [class.grid-cols-5]="diasColumnas().length === 5"
+                      [class.grid-cols-6]="diasColumnas().length === 6"
+                    >
+                      @for (d of diasColumnas(); track d) {
                         <div class="font-semibold text-slate-300 py-1">{{ d }}</div>
                       }
                     </div>
                   </div>
                   <div class="flex gap-1">
-                    <div class="flex w-24 shrink-0 flex-col text-right text-slate-500">
+                    <div
+                      class="flex w-16 shrink-0 flex-col text-right text-slate-500 sm:w-[4.5rem]"
+                    >
                       @for (h of etiquetasHora(); track h) {
                         <div
-                          class="flex items-center justify-end pr-1 text-xs leading-none"
+                          class="flex items-center justify-end pr-0.5 text-xs leading-none sm:pr-1"
                           [style.height.px]="ALTURA_FILA_GRILLA_PX"
                         >
                           {{ h }}
                         </div>
                       }
                     </div>
-                    <div class="grid min-w-0 flex-1 grid-cols-5 gap-x-1">
-                      @for (d of dias; track d) {
+                    <div
+                      class="grid min-w-0 flex-1 gap-x-1"
+                      [class.grid-cols-5]="diasColumnas().length === 5"
+                      [class.grid-cols-6]="diasColumnas().length === 6"
+                    >
+                      @for (d of diasColumnas(); track d) {
                         <div
                           class="relative box-border overflow-hidden rounded border border-slate-800/70 bg-slate-950/40"
                           [style.height.px]="alturaCuerpoGrillaPx()"
@@ -408,9 +421,6 @@ type FiltroCuatrimestre = '1er' | '2do';
                     </div>
                   </div>
                 </div>
-                <p class="mt-2 text-xs text-slate-500">
-                  Vista 8:00–23:05. Cada materia en un bloque continuo; solapes en la misma franja se reparten en columnas.
-                </p>
               </div>
             </div>
           </div>
@@ -437,7 +447,37 @@ export class CronogramaArmadoPage {
   /** Comisión bajo el botón "Usar esta comisión" (solo vista previa en grilla). */
   readonly previewOfertaTrack = signal<string | null>(null);
 
-  readonly dias = DIAS;
+  /**
+   * Incluye **Sábado** si alguna selección o la vista previa de comisión tiene bloques ese día
+   * (cuatrimestre filtrado).
+   */
+  readonly diasColumnas = computed((): string[] => {
+    const f = this.cuatrimestreFiltro();
+    const tieneSabadoEn = (bloques: readonly HorarioBloque[]): boolean =>
+      this.filtrarBloquesCon(bloques, f).some((b) => b.dia === 'Sábado');
+
+    for (const sel of this.selecciones()) {
+      if (tieneSabadoEn(sel.oferta.bloques)) {
+        return [...DIAS_LUN_VIE, 'Sábado'];
+      }
+    }
+
+    const previewTrack = this.previewOfertaTrack();
+    const ex = this.materiaExplorada();
+    const previewOferta =
+      previewTrack && ex
+        ? this.ofertasExploradasFiltradas().find((o) => this.trackOferta(o) === previewTrack)
+        : undefined;
+    if (previewOferta && tieneSabadoEn(previewOferta.bloques)) {
+      return [...DIAS_LUN_VIE, 'Sábado'];
+    }
+
+    return [...DIAS_LUN_VIE];
+  });
+
+  readonly anchoMinGrillaPx = computed(() =>
+    this.diasColumnas().length >= 6 ? 864 : 720,
+  );
 
   readonly filtrosCuatri: { id: FiltroCuatrimestre; label: string }[] = [
     { id: '1er', label: '1.er cuatri' },

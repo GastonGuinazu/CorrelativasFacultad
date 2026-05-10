@@ -24,22 +24,21 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
   template: `
     @if (evaluacion(); as ev) {
       <aside
-        class="flex flex-col gap-4 rounded-2xl border border-slate-300 bg-white p-5 shadow-sm"
+        class="flex flex-col gap-4 rounded-2xl border border-slate-700 bg-slate-900/90 p-5 shadow-sm"
       >
         <header class="flex items-start justify-between gap-2">
-          <h3 class="text-lg font-semibold leading-snug text-slate-900">
+          <h3 class="text-lg font-semibold leading-snug text-slate-100">
             {{ ev.materia.nombre }}
           </h3>
           <span
-            class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-200 text-emerald-700"
+            class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-500/20 text-emerald-300"
           >
             <lucide-icon [name]="iconBook" class="h-4 w-4"></lucide-icon>
           </span>
         </header>
 
         <div class="flex flex-wrap items-center gap-2">
-          <span
-            class="rounded-full bg-slate-200 px-2.5 py-0.5 text-xs font-medium text-slate-800"
+          <span class="rounded-full bg-slate-800 px-2.5 py-0.5 text-xs font-medium text-slate-200"
             >Nivel {{ ev.materia.nivel }}</span
           >
           <span
@@ -50,14 +49,14 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
           </span>
           @if (ev.materia.esElectiva) {
             <span
-              class="rounded-full bg-violet-200 px-2.5 py-0.5 text-xs font-medium text-violet-800"
+              class="rounded-full bg-violet-950/70 px-2.5 py-0.5 text-xs font-medium text-violet-200 ring-1 ring-violet-500/35"
             >
               Electiva · {{ ev.materia.creditos }} crédito(s)
             </span>
           }
           @if (!ev.materia.esElectiva && !ev.materia.cuentaProgresoTitulo) {
             <span
-              class="rounded-full bg-sky-200 px-2.5 py-0.5 text-xs font-medium text-sky-900"
+              class="rounded-full bg-sky-950/60 px-2.5 py-0.5 text-xs font-medium text-sky-200 ring-1 ring-sky-500/35"
             >
               Título intermedio (no suma al % Ingeniería)
             </span>
@@ -66,7 +65,7 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
 
         <button
           type="button"
-          class="flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-3 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
+          class="flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-3 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-500"
           (click)="verOpiniones.emit()"
         >
           <lucide-icon [name]="iconChat" class="h-4 w-4"></lucide-icon>
@@ -75,23 +74,21 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
 
         @if (ev.materia.reg.length === 0 && ev.materia.aprob.length === 0) {
           <div
-            class="flex items-center gap-2 rounded-xl bg-emerald-100 px-3 py-2 text-sm text-emerald-800 ring-1 ring-emerald-200"
+            class="flex items-center gap-2 rounded-xl bg-emerald-950/45 px-3 py-2 text-sm text-emerald-200 ring-1 ring-emerald-500/35"
           >
             <lucide-icon [name]="iconCheck" class="h-4 w-4"></lucide-icon>
             Esta materia no tiene prerrequisitos
           </div>
         } @else {
           <section class="flex flex-col gap-3 text-sm">
-            <h4
-              class="flex items-center gap-2 text-sm font-semibold text-slate-900"
-            >
+            <h4 class="flex items-center gap-2 text-sm font-semibold text-slate-100">
               <lucide-icon [name]="iconLink" class="h-4 w-4"></lucide-icon>
               Prerrequisitos
             </h4>
 
             @if (ev.materia.reg.length > 0) {
               <div>
-                <p class="text-xs font-medium text-slate-600 mb-1.5">
+                <p class="mb-1.5 text-xs font-medium text-slate-400">
                   Requiere Regular:
                 </p>
                 <ul class="flex flex-col gap-1.5">
@@ -100,8 +97,8 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
                       class="flex items-center gap-2 rounded-lg px-2.5 py-1.5"
                       [class]="
                         req.cumplido
-                          ? 'bg-emerald-100 text-emerald-800 ring-1 ring-emerald-200'
-                          : 'bg-rose-100 text-rose-800 ring-1 ring-rose-200'
+                          ? 'bg-emerald-950/55 text-emerald-200 ring-1 ring-emerald-500/35'
+                          : 'bg-rose-950/50 text-rose-200 ring-1 ring-rose-500/35'
                       "
                     >
                       <lucide-icon
@@ -117,7 +114,7 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
 
             @if (ev.materia.aprob.length > 0) {
               <div>
-                <p class="text-xs font-medium text-slate-600 mb-1.5">
+                <p class="mb-1.5 text-xs font-medium text-slate-400">
                   Requiere Aprobada:
                 </p>
                 <ul class="flex flex-col gap-1.5">
@@ -126,8 +123,8 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
                       class="flex items-center gap-2 rounded-lg px-2.5 py-1.5"
                       [class]="
                         req.cumplido
-                          ? 'bg-emerald-100 text-emerald-800 ring-1 ring-emerald-200'
-                          : 'bg-rose-100 text-rose-800 ring-1 ring-rose-200'
+                          ? 'bg-emerald-950/55 text-emerald-200 ring-1 ring-emerald-500/35'
+                          : 'bg-rose-950/50 text-rose-200 ring-1 ring-rose-500/35'
                       "
                     >
                       <lucide-icon
@@ -143,7 +140,7 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
 
             @if (totalFaltantes() > 0) {
               <div
-                class="flex flex-col gap-1 rounded-xl bg-amber-100 px-3 py-2 text-xs text-amber-900 ring-1 ring-amber-200"
+                class="flex flex-col gap-1 rounded-xl bg-amber-950/45 px-3 py-2 text-xs text-amber-100 ring-1 ring-amber-500/35"
               >
                 <span class="flex items-center gap-1.5 font-semibold">
                   <lucide-icon [name]="iconAlert" class="h-3.5 w-3.5"></lucide-icon>
@@ -162,7 +159,7 @@ import { EvaluacionMateria } from '../../../core/models/materia.model';
       </aside>
     } @else {
       <aside
-        class="flex h-full flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-slate-300 bg-white p-8 text-center text-sm text-slate-600"
+        class="flex h-full min-h-[240px] flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-slate-600 bg-slate-900/50 p-8 text-center text-sm text-slate-400"
       >
         <lucide-icon [name]="iconBook" class="h-6 w-6 text-slate-500"></lucide-icon>
         <p>Seleccioná una materia para ver sus detalles y prerrequisitos.</p>
@@ -195,12 +192,12 @@ export class DetailPanelComponent {
   readonly badgeClass = computed(() => {
     const ev = this.evaluacion();
     if (!ev) return '';
-    if (ev.estado === 'aprobada') return 'bg-emerald-200 text-emerald-800';
-    if (ev.estado === 'regular') return 'bg-amber-200 text-amber-800';
-    if (ev.estado === 'cursando') return 'bg-blue-200 text-blue-800';
+    if (ev.estado === 'aprobada') return 'bg-emerald-950/70 text-emerald-200 ring-1 ring-emerald-500/40';
+    if (ev.estado === 'regular') return 'bg-amber-950/60 text-amber-200 ring-1 ring-amber-500/40';
+    if (ev.estado === 'cursando') return 'bg-blue-950/60 text-blue-200 ring-1 ring-blue-500/40';
     return ev.disponibilidad === 'disponible'
-      ? 'bg-teal-200 text-teal-800'
-      : 'bg-orange-200 text-orange-700';
+      ? 'bg-teal-950/55 text-teal-200 ring-1 ring-teal-500/35'
+      : 'bg-orange-950/55 text-orange-200 ring-1 ring-orange-500/35';
   });
 
   readonly regulares = computed(() => {

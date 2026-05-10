@@ -20,7 +20,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <article
-      class="group relative flex flex-col rounded-2xl border bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md cursor-pointer"
+      class="group relative flex flex-col cursor-pointer rounded-2xl border border-slate-700 bg-slate-900/80 p-4 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
       [class]="containerClass()"
       [class.subject-card--celebracion]="brilloCelebracion()"
       [attr.data-celebracion-anchor]="anchorCelebracion()"
@@ -49,9 +49,7 @@ import {
         }
       </header>
 
-      <h3
-        class="text-sm font-semibold leading-snug text-slate-900 line-clamp-2 mb-3"
-      >
+      <h3 class="mb-3 line-clamp-2 text-sm font-semibold leading-snug text-slate-100">
         {{ evaluacion().materia.nombre }}
       </h3>
 
@@ -133,34 +131,34 @@ export class SubjectCardComponent {
 
   readonly containerClass = computed(() => {
     if (this.seleccionada()) {
-      return 'border-emerald-500 ring-2 ring-emerald-300 bg-emerald-100/50';
+      return 'border-emerald-400 ring-2 ring-emerald-500/40 bg-emerald-950/45';
     }
     switch (this.estado()) {
       case 'aprobada':
-        return 'border-emerald-400 bg-emerald-100/50';
+        return 'border-emerald-500/70 bg-emerald-950/40';
       case 'regular':
-        return 'border-amber-400 bg-amber-100/50';
+        return 'border-amber-500/70 bg-amber-950/35';
       case 'cursando':
-        return 'border-blue-400 bg-blue-100/50';
+        return 'border-blue-500/70 bg-blue-950/35';
       default:
         return this.disponible()
-          ? 'border-slate-300'
-          : 'border-slate-300 bg-slate-100/70 opacity-90';
+          ? 'border-slate-600 bg-slate-900/60'
+          : 'border-slate-700 bg-slate-950/80 opacity-90';
     }
   });
 
   readonly iconWrapperClass = computed(() => {
     switch (this.estado()) {
       case 'aprobada':
-        return 'bg-emerald-200 text-emerald-700';
+        return 'bg-emerald-500/25 text-emerald-300';
       case 'regular':
-        return 'bg-amber-200 text-amber-700';
+        return 'bg-amber-500/25 text-amber-300';
       case 'cursando':
-        return 'bg-blue-200 text-blue-700';
+        return 'bg-blue-500/25 text-blue-300';
       default:
         return this.disponible()
-          ? 'bg-slate-200 text-slate-600'
-          : 'bg-slate-200 text-slate-500';
+          ? 'bg-slate-800 text-slate-300'
+          : 'bg-slate-800/90 text-slate-500';
     }
   });
 
@@ -194,7 +192,7 @@ export class SubjectCardComponent {
     if (!this.disponible()) {
       return {
         icon: Lock,
-        wrapper: 'bg-orange-200 text-orange-600',
+        wrapper: 'bg-orange-950/80 text-orange-300 ring-1 ring-orange-500/35',
         label: 'Bloqueada',
       };
     }
@@ -215,7 +213,7 @@ export class SubjectCardComponent {
           return 'bg-slate-600 text-white shadow-sm';
       }
     }
-    return 'bg-slate-200 text-slate-700 hover:bg-slate-300';
+    return 'bg-slate-800 text-slate-200 hover:bg-slate-700';
   }
 
   onCardClick(): void {

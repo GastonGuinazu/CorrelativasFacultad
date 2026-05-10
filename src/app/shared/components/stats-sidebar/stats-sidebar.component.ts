@@ -28,21 +28,21 @@ import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <aside
-      class="flex flex-col gap-4 rounded-2xl border border-slate-300 bg-white p-5 shadow-sm"
+      class="flex flex-col gap-4 rounded-2xl border border-slate-700 bg-slate-900/90 p-5 shadow-sm"
     >
       <header class="flex items-center gap-2">
         <span
-          class="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-200 text-slate-700"
+          class="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-800 text-slate-200"
         >
           <lucide-icon [name]="iconChart" class="h-5 w-5"></lucide-icon>
         </span>
-        <h2 class="text-lg font-semibold text-slate-900">Estadísticas</h2>
+        <h2 class="text-lg font-semibold text-slate-100">Estadísticas</h2>
       </header>
 
       <div class="flex flex-col gap-1.5">
-        <span class="text-xs font-medium text-slate-600">Ver materias</span>
+        <span class="text-xs font-medium text-slate-400">Ver materias</span>
         <div
-          class="grid grid-cols-3 gap-1 rounded-xl bg-slate-200 p-1 text-[11px] font-medium leading-tight sm:text-xs"
+          class="grid grid-cols-3 gap-1 rounded-xl bg-slate-800/80 p-1 text-[11px] font-medium leading-tight sm:text-xs"
           role="tablist"
         >
           @for (opt of filtroOpciones; track opt.id) {
@@ -53,8 +53,8 @@ import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
               class="rounded-lg px-1.5 py-2 transition sm:px-2"
               [class]="
                 store.filtroMaterias() === opt.id
-                  ? 'bg-white text-slate-900 shadow-sm'
-                  : 'text-slate-600 hover:text-slate-900'
+                  ? 'bg-slate-700 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-slate-200'
               "
               (click)="store.setFiltroMaterias(opt.id)"
             >
@@ -65,13 +65,11 @@ import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
       </div>
 
       <section
-        class="rounded-2xl bg-gradient-to-br from-violet-100 via-fuchsia-100 to-pink-100 p-4 ring-1 ring-violet-200"
+        class="rounded-2xl bg-gradient-to-br from-violet-950/80 via-fuchsia-950/60 to-pink-950/60 p-4 ring-1 ring-violet-500/30"
       >
         <div class="flex items-center justify-between">
-          <span class="text-sm font-medium text-violet-900"
-            >Créditos Electivas</span
-          >
-          <span class="text-2xl font-bold text-violet-800">
+          <span class="text-sm font-medium text-violet-200">Créditos Electivas</span>
+          <span class="text-2xl font-bold text-violet-100">
             {{ stats().creditosElectivosAprobados }} /
             {{ stats().creditosElectivosRequeridos }}
           </span>
@@ -83,68 +81,60 @@ import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
             [max]="stats().creditosElectivosRequeridos"
           />
         </div>
-        <p class="mt-2 text-xs text-violet-800">
+        <p class="mt-2 text-xs text-violet-200/90">
           {{ creditosFaltantesLabel() }}
         </p>
       </section>
 
       <ul class="flex flex-col gap-1.5 text-sm">
         <li
-          class="flex items-center justify-between rounded-xl border border-slate-300/60 bg-slate-100 px-3 py-2.5"
+          class="flex items-center justify-between rounded-xl border border-slate-600/80 bg-slate-800/60 px-3 py-2.5"
         >
-          <span class="flex items-center gap-2 text-slate-800">
-            <lucide-icon [name]="iconChart" class="h-4 w-4 text-slate-600"></lucide-icon>
+          <span class="flex items-center gap-2 text-slate-200">
+            <lucide-icon [name]="iconChart" class="h-4 w-4 text-slate-400"></lucide-icon>
             Total
           </span>
-          <span class="font-semibold text-slate-900">{{ stats().total }}</span>
+          <span class="font-semibold text-slate-100">{{ stats().total }}</span>
         </li>
 
         <li
-          class="flex items-center justify-between rounded-xl bg-emerald-100 px-3 py-2.5 ring-1 ring-emerald-200"
+          class="flex items-center justify-between rounded-xl bg-emerald-950/50 px-3 py-2.5 ring-1 ring-emerald-500/35"
         >
-          <span class="flex items-center gap-2 text-emerald-900">
-            <lucide-icon [name]="iconCheck" class="h-4 w-4 text-emerald-700"></lucide-icon>
+          <span class="flex items-center gap-2 text-emerald-200">
+            <lucide-icon [name]="iconCheck" class="h-4 w-4 text-emerald-400"></lucide-icon>
             Aprobadas
           </span>
-          <span class="font-semibold text-emerald-800">{{
-            stats().counts.aprobada
-          }}</span>
+          <span class="font-semibold text-emerald-100">{{ stats().counts.aprobada }}</span>
         </li>
 
         <li
-          class="flex items-center justify-between rounded-xl bg-amber-100 px-3 py-2.5 ring-1 ring-amber-200"
+          class="flex items-center justify-between rounded-xl bg-amber-950/40 px-3 py-2.5 ring-1 ring-amber-500/35"
         >
-          <span class="flex items-center gap-2 text-amber-900">
-            <lucide-icon [name]="iconStar" class="h-4 w-4 text-amber-700"></lucide-icon>
+          <span class="flex items-center gap-2 text-amber-200">
+            <lucide-icon [name]="iconStar" class="h-4 w-4 text-amber-400"></lucide-icon>
             Regulares
           </span>
-          <span class="font-semibold text-amber-800">{{
-            stats().counts.regular
-          }}</span>
+          <span class="font-semibold text-amber-100">{{ stats().counts.regular }}</span>
         </li>
 
         <li
-          class="flex items-center justify-between rounded-xl bg-blue-100 px-3 py-2.5 ring-1 ring-blue-200"
+          class="flex items-center justify-between rounded-xl bg-blue-950/40 px-3 py-2.5 ring-1 ring-blue-500/35"
         >
-          <span class="flex items-center gap-2 text-blue-900">
-            <lucide-icon [name]="iconClock" class="h-4 w-4 text-blue-700"></lucide-icon>
+          <span class="flex items-center gap-2 text-blue-200">
+            <lucide-icon [name]="iconClock" class="h-4 w-4 text-blue-400"></lucide-icon>
             Cursando
           </span>
-          <span class="font-semibold text-blue-800">{{
-            stats().counts.cursando
-          }}</span>
+          <span class="font-semibold text-blue-100">{{ stats().counts.cursando }}</span>
         </li>
 
         <li
-          class="flex items-center justify-between rounded-xl bg-slate-100 px-3 py-2.5 ring-1 ring-slate-300"
+          class="flex items-center justify-between rounded-xl bg-slate-800/70 px-3 py-2.5 ring-1 ring-slate-600"
         >
-          <span class="flex items-center gap-2 text-slate-800">
-            <lucide-icon [name]="iconHourglass" class="h-4 w-4 text-slate-600"></lucide-icon>
+          <span class="flex items-center gap-2 text-slate-200">
+            <lucide-icon [name]="iconHourglass" class="h-4 w-4 text-slate-400"></lucide-icon>
             Pendientes
           </span>
-          <span class="font-semibold text-slate-800">{{
-            stats().counts.pendiente
-          }}</span>
+          <span class="font-semibold text-slate-100">{{ stats().counts.pendiente }}</span>
         </li>
       </ul>
 
@@ -177,7 +167,7 @@ import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
       <div class="flex flex-col gap-2 pt-1">
         <button
           type="button"
-          class="flex items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-800 transition hover:bg-slate-100"
+          class="flex items-center justify-center gap-2 rounded-xl border border-slate-600 bg-slate-800 px-3 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-700"
           (click)="abrirComoFunciona.emit()"
         >
           <lucide-icon [name]="iconHelp" class="h-4 w-4"></lucide-icon>
@@ -185,7 +175,7 @@ import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
         </button>
         <button
           type="button"
-          class="flex items-center justify-center gap-2 rounded-xl border border-rose-300 bg-rose-100 px-3 py-2 text-sm font-medium text-rose-700 transition hover:bg-rose-200"
+          class="flex items-center justify-center gap-2 rounded-xl border border-rose-500/40 bg-rose-950/50 px-3 py-2 text-sm font-medium text-rose-200 transition hover:bg-rose-950/70"
           (click)="reiniciar.emit()"
         >
           <lucide-icon [name]="iconReset" class="h-4 w-4"></lucide-icon>

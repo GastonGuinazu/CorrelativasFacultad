@@ -39,7 +39,7 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="min-h-screen bg-slate-100 pb-12">
+    <div class="min-h-screen bg-slate-950 pb-12">
       <header
         class="relative isolate min-h-[300px] overflow-hidden bg-slate-900 sm:min-h-[340px]"
       >
@@ -149,30 +149,30 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
 
           <div class="col-span-12 lg:col-span-6">
             <div
-              class="flex flex-col gap-4 rounded-2xl border border-slate-300 bg-white p-5 shadow-sm"
+              class="flex flex-col gap-4 rounded-2xl border border-slate-700 bg-slate-900/90 p-5 shadow-sm"
             >
               <header
-                class="flex flex-col gap-4 border-b border-slate-100 pb-4 lg:flex-row lg:items-center lg:justify-between lg:gap-3"
+                class="flex flex-col gap-4 border-b border-slate-700 pb-4 lg:flex-row lg:items-center lg:justify-between lg:gap-3"
               >
                 <div class="flex min-w-0 flex-1 flex-wrap items-center gap-3">
                   <div class="flex items-center gap-2">
                     <span
-                      class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-emerald-200 text-emerald-700"
+                      class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-emerald-500/20 text-emerald-300"
                     >
                       <lucide-icon [name]="iconBook" class="h-5 w-5"></lucide-icon>
                     </span>
                     <div class="flex flex-col leading-tight">
-                      <h2 class="text-base font-semibold text-slate-900">
+                      <h2 class="text-base font-semibold text-slate-100">
                         Nivel {{ store.nivelActivo() }}
                       </h2>
-                      <span class="text-xs text-slate-600">
+                      <span class="text-xs text-slate-400">
                         {{ store.evaluacionesNivelActivo().length }} materias
                       </span>
                     </div>
                   </div>
                   <button
                     type="button"
-                    class="rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-900 transition hover:bg-emerald-100"
+                    class="rounded-lg border border-emerald-500/40 bg-emerald-500/15 px-3 py-1.5 text-xs font-medium text-emerald-200 transition hover:bg-emerald-500/25"
                     (click)="marcarNivelTodoAprobado(store.nivelActivo())"
                   >
                     Marcar todo el nivel aprobado
@@ -185,7 +185,7 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                 >
                   <button
                     type="button"
-                    class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                    class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-600 text-slate-300 transition hover:bg-slate-800 disabled:opacity-40"
                     [disabled]="!puedeRetroceder()"
                     (click)="retroceder()"
                     aria-label="Nivel anterior"
@@ -199,7 +199,7 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                       [class]="
                         store.nivelActivo() === n
                           ? 'bg-emerald-600 text-white shadow-sm'
-                          : 'text-slate-600 hover:bg-slate-200'
+                          : 'text-slate-400 hover:bg-slate-800'
                       "
                       (click)="store.setNivelActivo(n); scrollToGrid()"
                     >
@@ -208,7 +208,7 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                   }
                   <button
                     type="button"
-                    class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                    class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-600 text-slate-300 transition hover:bg-slate-800 disabled:opacity-40"
                     [disabled]="!puedeAvanzar()"
                     (click)="avanzar()"
                     aria-label="Nivel siguiente"
@@ -222,18 +222,19 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                 <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
                   @for (i of skeletons; track i) {
                     <div
-                      class="h-36 animate-pulse rounded-2xl bg-slate-200"
+                      class="h-36 animate-pulse rounded-2xl bg-slate-800"
                       aria-hidden="true"
                     ></div>
                   }
                 </div>
               } @else if (store.errorCarga()) {
-                <p class="text-sm text-rose-700">
+                <p class="text-sm text-rose-300">
                   No se pudo cargar el plan de estudios. Verificá que
-                  <code>materias.json</code> esté en la carpeta <code>public/</code>.
+                  <code class="rounded bg-slate-800 px-1 text-slate-200">materias.json</code> esté en la carpeta
+                  <code class="rounded bg-slate-800 px-1 text-slate-200">public/</code>.
                 </p>
               } @else if (store.evaluacionesNivelActivo().length === 0) {
-                <p class="text-sm text-slate-600">
+                <p class="text-sm text-slate-400">
                   No hay materias para mostrar con los filtros actuales.
                 </p>
               } @else {
@@ -253,12 +254,12 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
               }
 
               <nav
-                class="mt-4 flex flex-wrap items-center justify-center gap-1 border-t border-dashed border-slate-200 pt-4"
+                class="mt-4 flex flex-wrap items-center justify-center gap-1 border-t border-dashed border-slate-700 pt-4"
                 aria-label="Navegar entre niveles"
               >
                 <button
                   type="button"
-                  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-600 text-slate-300 transition hover:bg-slate-800 disabled:opacity-40"
                   [disabled]="!puedeRetroceder()"
                   (click)="retroceder()"
                   aria-label="Nivel anterior"
@@ -272,7 +273,7 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                     [class]="
                       store.nivelActivo() === n
                         ? 'bg-emerald-600 text-white shadow-sm'
-                        : 'text-slate-600 hover:bg-slate-200'
+                        : 'text-slate-400 hover:bg-slate-800'
                     "
                     (click)="store.setNivelActivo(n); scrollToGrid()"
                   >
@@ -281,7 +282,7 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
                 }
                 <button
                   type="button"
-                  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 transition hover:bg-slate-100 disabled:opacity-40"
+                  class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-600 text-slate-300 transition hover:bg-slate-800 disabled:opacity-40"
                   [disabled]="!puedeAvanzar()"
                   (click)="avanzar()"
                   aria-label="Nivel siguiente"
