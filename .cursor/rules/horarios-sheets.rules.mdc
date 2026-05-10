@@ -1,0 +1,12 @@
+---
+description: Horarios Google Sheets — ETL, aliases, JSON y página Cursos y Profes.
+globs:
+  - scripts/horarios/**/*
+  - public/data/horarios*.json
+  - src/app/features/cursos-profes/**/*
+  - src/app/core/models/horarios-quinto.model.ts
+---
+
+- Contexto compacto: skill **horarios-sheets** (`.cursor/skills/horarios-sheets/SKILL.md`). Detalle operativo: [`scripts/horarios/README.md`](scripts/horarios/README.md).
+- Patrones planilla → materia: `aliases-v1.json` … `aliases-v5.json` (IDs alineados a [`public/materias.json`](public/materias.json)).
+- Tras cambiar aliases o parser: `npm run test:horarios`.

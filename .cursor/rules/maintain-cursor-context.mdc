@@ -1,0 +1,14 @@
+---
+description: Mantener skills y rules alineados con cambios importantes del proyecto
+alwaysApply: true
+---
+
+# Mantenimiento del contexto en Cursor
+
+Tratá esto como checklist al **cerrar** un cambio que no sea trivial.
+
+**Qué cuenta como importante (orientativo):** nuevo flujo de usuario visible, nuevo módulo o servicio central, cambio de persistencia, cambio del motor de correlativas o del modelo de datos. No hace falta actualizar skills por cada typo o ajuste menor.
+
+1. **Área ya cubierta** por un skill en [`.cursor/skills/`](.cursor/skills): si cambian contratos, rutas clave o convenciones de ese dominio, **actualizá** el `SKILL.md` correspondiente en el mismo cambio (enlaces rotos, archivos nuevos, advertencias).
+2. **Dominio nuevo** (sin entrada en la tabla de skills de [`Agent.md`](Agent.md)): **creá** `.cursor/skills/<nombre>/SKILL.md`, **añadí** la fila en esa tabla y, si aplica, **creá o extendé** una rule con `globs` en [`.cursor/rules/`](.cursor/rules) (mismo patrón que `correlativas-core.rules.mdc` / `correlativas-ui.rules.mdc`).
+3. **Reglas de negocio** que deban quedar claras para personas o para el motor: revisá si corresponde editar [`REGLAS_NEGOCIO.md`](REGLAS_NEGOCIO.md). No dupliques texto largo de ahí dentro de los skills; enlazá.

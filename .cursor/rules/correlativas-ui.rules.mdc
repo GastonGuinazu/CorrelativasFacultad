@@ -1,0 +1,7 @@
+---
+description: Recordatorio de skill UI al tocar features o shared
+globs: src/app/features/**,src/app/shared/**
+alwaysApply: false
+---
+
+Antes de cambiar páginas o componentes de UI, leé el skill del proyecto **angular-ui-correlativas** (`.cursor/skills/angular-ui-correlativas/SKILL.md`).

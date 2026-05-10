@@ -1,0 +1,82 @@
+{
+  "$schema_comment": "4.º año — abreviaturas planilla UTN; electivas/huecos según oferta por hoja (combinaciones pueden variar). Colores: ver parse-grid + API gridData.",
+  "obligatoriasPorId": {
+    "24": {
+      "nombreCanonico": "Legislación",
+      "patrones": ["Legislación", "Legislacion"]
+    },
+    "25": {
+      "nombreCanonico": "Ingeniería y Calidad de Software",
+      "patrones": ["IS", "Ingeniería y Calidad", "Ingenieria y Calidad", "Calidad de Software"]
+    },
+    "26": {
+      "nombreCanonico": "Redes de Datos",
+      "patrones": ["RED", "Redes de Datos", "Redes"]
+    },
+    "27": {
+      "nombreCanonico": "Investigación Operativa",
+      "patrones": ["IOP", "Investigación Operativa", "Investigacion Operativa"]
+    },
+    "28": {
+      "nombreCanonico": "Simulación",
+      "patrones": ["SIM", "Simulación", "Simulacion"]
+    },
+    "29": {
+      "nombreCanonico": "Tecnologías Para la Automatización",
+      "patrones": ["TA", "Tecnologías Para la Automatización", "Tecnologias Para la Automatizacion", "Tecnología para la Automatización"]
+    },
+    "30": {
+      "nombreCanonico": "Administración de Sistemas de Información",
+      "patrones": ["AS", "Administración de Sistemas", "Administracion de Sistemas"]
+    }
+  },
+  "electivasPorNombre": {
+    "Desarrollo de Aplicaciones Con Objetos": {
+      "patrones": [
+        "DAO",
+        "Desarrollo de Aplicaciones con Objetos",
+        "Desarrollo de Aplicaciones Con Objetos",
+        "Desarrollo de Aplicaciones",
+        "Desarrollo Aplicaciones"
+      ]
+    },
+    "Seguridad en el Desarrollo de Software": {
+      "patrones": [
+        "Seguridad en el Desarrollo de Software",
+        "Seguridad en el Desarrollo",
+        "Seguridad Desarrollo Software"
+      ]
+    },
+    "Green Software": {
+      "patrones": ["Green Software", "Green"]
+    },
+    "Gestión Industrial de la Producción": {
+      "patrones": ["Gestión Industrial", "Gestion Industrial"]
+    },
+    "Gestión de la Mejora de los Procesos": {
+      "patrones": ["Gestión de la Mejora", "Gestion de la Mejora", "Mejora de los Procesos"]
+    },
+    "Desarrollo y Operaciones devOPS": {
+      "patrones": ["DevOps", "devOPS", "Desarrollo y Operaciones", "Desarrollo y Operaciones devOPS"]
+    }
+  },
+  "huecosElectivos": {
+    "E1": {
+      "opciones": [
+        "Gestión de la Mejora de los Procesos",
+        "Gestión Industrial de la Producción",
+        "Green Software"
+      ],
+      "patrones": ["Electiva 1", "E1"]
+    },
+    "E2": {
+      "opciones": [
+        "Desarrollo y Operaciones devOPS",
+        "Gestión de la Mejora de los Procesos",
+        "Gestión Industrial de la Producción",
+        "Green Software"
+      ],
+      "patrones": ["Electiva 2", "E2"]
+    }
+  }
+}

@@ -1,0 +1,4504 @@
+{
+  "schemaVersion": 1,
+  "fuente": {
+    "spreadsheetId": "16VWvLd2raHPeOWuqvDe2vx-ZpgiQebq8T6xMNxxkOiI",
+    "url": "https://docs.google.com/spreadsheets/d/16VWvLd2raHPeOWuqvDe2vx-ZpgiQebq8T6xMNxxkOiI/edit",
+    "extraidoEn": "2026-05-10T02:40:09.561Z",
+    "anioCursado": 5
+  },
+  "cursos": [
+    {
+      "curso": "5K1",
+      "sheetId": 0,
+      "bloques": [
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "SG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "SG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana          Seguridad en\nlos Sistemas Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Sábado",
+          "horaInicio": "8:00",
+          "horaFin": "9:30",
+          "materiaCrudo": "Ingeniería\nde Software\nde Fuentes\nAbierrtas-Libre",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Ingeniería de Software de Fuentes Abiertas/Libres",
+            "nombreCanonico": "Ingeniería de Software de Fuentes Abiertas/Libres"
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "docentesCrudo": "Medina, Oscar Carlos\nCicerone, María de los Ángeles",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Proyecto\nFInal",
+          "docentesCrudo": "Ortiz, Maria Cecilia\nLiberatori, Marcelo Sadi\nMac William, Maria Irene",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión\nGerencial",
+          "docentesCrudo": "Shocron Benmuyal, Leon Elias\nSzyrko, Pablo Andres\nCohen, Diego José",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Sistemas de\nGestión",
+          "docentesCrudo": "Carignano, Claudia Etna\nTorres Hansen, Tomás Gabriel",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ingeniería\nde Software",
+          "docentesCrudo": "Medel, Ricardo Hugo",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Ingeniería de Software de Fuentes Abiertas/Libres",
+            "nombreCanonico": "Ingeniería de Software de Fuentes Abiertas/Libres"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ciencia de\nDatos",
+          "docentesCrudo": "Maldonado, Calixto Alejandro\nCallejas, Marisa Del Carmen\nVaca, Pablo Andres",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "docentesCrudo": "Casatti, Martín Gustavo\nOlariaga, Sandra Monica",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Creatividad e Innovación \nen Ingeniería",
+          "docentesCrudo": "Mana, Franco\nGimenez Zens, Ines Luz",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Decisiones en \nEscenarios Complejos",
+          "docentesCrudo": "Carignano, Claudia Etna\nRustan, Silvina",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Habilidades blandas",
+          "docentesCrudo": "Cuevas, Juan Carlos\nCastro, Claudia Susana\nGimenez Zens, Ines Luz",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Consultoría en Negocios \nDigitales",
+          "docentesCrudo": "Gigena, Elias Fernando\nBalut Cabezas, Jorge Ariel",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Emprendimientos \nTecnológicos",
+          "docentesCrudo": "Casali, Diego Rafael",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gerenciamiento \nEstratégico",
+          "docentesCrudo": "Gigena, Elias Fernando\nBalut Cabezas, Jorge Ariel",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 28
+      }
+    },
+    {
+      "curso": "5k2",
+      "sheetId": 1705090303,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "13:15",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "CCD - E4",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Ciencia de\nDatos - E4",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Ciencia de\nDatos - E4",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "12:05",
+          "horaFin": "13:15",
+          "materiaCrudo": "SG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "SG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 3 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Electiva 3 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Electiva 3 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E3 Decisiones en \nEscenarios Complejos Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "docentesCrudo": "Gibellini, Fabian Alejandro\nCicerone, María de los Ángeles",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Proyecto\nFInal",
+          "docentesCrudo": "Gastañaga, Iris Nancy\nJaime, Maria Natalia",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión\nGerencial",
+          "docentesCrudo": "Shocron Benmuyal, Leon Elias\nSalas, Cristina Alejandra",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Sistemas de\nGestión",
+          "docentesCrudo": "Gualpa, Mariano Martín\nTorres Hansen, Tomás Gabriel",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ciencia de\nDatos",
+          "docentesCrudo": "Sacco, Pablo Alberto\nCallejas, Marisa Del Carmen",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "docentesCrudo": "García, Mario Alejandro\nGuzman, Analia\nGramática, Martín Nicolás",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Creatividad e Innovación \nen Ingeniería",
+          "docentesCrudo": "Mana, Franco\nGimenez Zens, Ines Luz",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Decisiones en \nEscenarios Complejos",
+          "docentesCrudo": "Peretto, Claudia Beatriz\nRosa, Sergio Hernan",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Habilidades \nblandas",
+          "docentesCrudo": "Cuevas, Juan Carlos\nGimenez Zens, Ines Luz",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Consultoría en \nNegocios Digitales",
+          "docentesCrudo": "Martinez, Daniel Ignacio\nBalut Cabezas, Jorge Ariel\nGigena, Elias Fernando",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gerenciamiento \nEstratégico",
+          "docentesCrudo": "Martinez, Daniel Ignacio\nGigena, Elias Fernando\nBalut Cabezas, Jorge Ariel",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Seguridad en el \nDesarrollo de Software",
+          "docentesCrudo": "Parisi, Germán Nicolás\nBarrionuevo, Ileana Maricel\nHick, Lucas Michel Karim",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 27
+      }
+    },
+    {
+      "curso": "5k3",
+      "sheetId": 627434922,
+      "bloques": [
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 2 - E3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 2 - E3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 2 - E3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 4 - E5",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 4 - E5",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 4 - E5",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 2 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 2 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 4",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 4 - E5",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 4 - E5",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 4 - E5",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "docentesCrudo": "Parisi, Germán Nicolás\nAuquer, Marcelo Javier",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Proyecto\nFInal",
+          "docentesCrudo": "Quinteros, Sergio Ramón\nLiberatori, Marcelo Sadi\nDestefanis, Maria Laura\nTrettel, Marta Cecilia\nTorres Hansen, Tomás Gabriel",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión\nGerencial",
+          "docentesCrudo": "Trebucq, María Beatriz \nShocron Benmuyal, Leon Elias\nCohen, Diego José",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Sistemas de\nGestión",
+          "docentesCrudo": null,
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ingeniería\nde Software",
+          "docentesCrudo": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Ingeniería de Software de Fuentes Abiertas/Libres",
+            "nombreCanonico": "Ingeniería de Software de Fuentes Abiertas/Libres"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ciencia de\nDatos",
+          "docentesCrudo": "Gualpa, Mariano Martín\nCalle, Manuel Rodrigo\nRustan, Silvina",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Inteligencia\nArtificial",
+          "docentesCrudo": "García, Mario Alejandro\nForte, Guillermo Omar",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 31,
+            "nombreCanonico": "Inteligencia Artificial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Decisiones en \nEscenarios Complejos",
+          "docentesCrudo": "Rustan, Silvina\nGualpa, Mariano Martín",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Emprendimientos \nTecnológicos",
+          "docentesCrudo": "Barra, Mario Augusto\nGalvan, Diego Roman",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gerenciamiento \nEstratégico",
+          "docentesCrudo": "Srur, Leandro Paolo\nMartinez, Daniel Ignacio\nRuffinatti, Adrian Feliciano",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Práctica Profesional \nSupervisada",
+          "docentesCrudo": "Liberatori, Marcelo Sadi\nDamiano, Luis Esteban\nRustan, Silvina",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Desarrollo con \nTecnologías Blockchain",
+          "docentesCrudo": "Medina, Oscar Carlos\nRomero, Rubén Aníbal",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Testing de \nSoftware",
+          "docentesCrudo": "Montoya, Fanny Esther\nBravo, Estela Maris\nNieto, Claudia Andrea",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 27
+      }
+    },
+    {
+      "curso": "5K4",
+      "sheetId": 418330703,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 3 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 3 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 3 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Proyecto\nFInal",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 2 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "GG",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 2 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 2 - E4",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Gestión\nGerencial",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Sistemas de\nGestión",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Ciencia de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "CCD",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "SSI",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde         Seguridad en\nlos Sistemas Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Decisiones en Escenarios Complejos",
+              "Gerenciamiento Estratégico"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde        E4 Seguridad en el Desarrollo \nde Software Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 3",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Seguridad en\nlos Sistemas",
+          "docentesCrudo": "Cuevas, Juan Carlos\nAuquer, Marcelo Javier",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 35,
+            "nombreCanonico": "Seguridad en los Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Proyecto\nFInal",
+          "docentesCrudo": "Jaime, Maria Natalia\nAquino, Francisco Alejandro\nArenas, Maria Silvina\nSantos, Virginia Inés\nAhumada, Victoria Yamila\nD´Agostino, José Luis",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 36,
+            "nombreCanonico": "Proyecto Final"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión\nGerencial",
+          "docentesCrudo": "Paredes, Alejandro Marcelo\nPossamai, Oscar Cesar",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 34,
+            "nombreCanonico": "Gestión Gerencial"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Sistemas de\nGestión",
+          "docentesCrudo": "Castro, Sergio Horacio\nFerrando, Mariel Edith\nSantos, Virginia Inés",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 33,
+            "nombreCanonico": "Sistemas de Gestión"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ciencia de\nDatos",
+          "docentesCrudo": "Maldonado, Calixto Alejandro\nCallejas, Marisa Del Carmen\nCalle, Manuel Rodrigo",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 32,
+            "nombreCanonico": "Ciencia de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Creatividad e Innovación \nen Ingeniería",
+          "docentesCrudo": "Cuevas, Juan Carlos\nGimenez Zens, Ines Luz",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Consultoría en \nNegocios Digitales",
+          "docentesCrudo": "Srur, Leandro Paolo\nRuffinatti, Adrian Feliciano\nMartinez, Daniel Ignaci",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E3",
+            "opciones": [
+              "Creatividad e Innovación en Ingeniería",
+              "Consultoría en Negocios Digitales"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Emprendimientos \nTecnológicos",
+          "docentesCrudo": "Sacco, Pablo Alberto\nCallejas, Marisa Del Carmen",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Emprendimientos Tecnológicos"
+            ]
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Seguridad en el Desarrollo \nde Software",
+          "docentesCrudo": "Parisi, Germán Nicolás\nBertola, Federico Javier\nHick, Lucas Michel Karim",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Integración de Aplicaciones \nen Entorno Web",
+          "docentesCrudo": "Romero, María Soledad\nRomero, Rubén Aníbal",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 27
+      }
+    }
+  ]
+}

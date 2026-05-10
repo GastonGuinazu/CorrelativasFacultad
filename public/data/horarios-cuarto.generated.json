@@ -1,0 +1,4171 @@
+{
+  "schemaVersion": 1,
+  "fuente": {
+    "spreadsheetId": "1d7cmVHpu0GsMiyRMpf98lRI94_Q-RCqGHx20u2ER-eU",
+    "url": "https://docs.google.com/spreadsheets/d/1d7cmVHpu0GsMiyRMpf98lRI94_Q-RCqGHx20u2ER-eU/edit",
+    "extraidoEn": "2026-05-10T02:40:01.825Z",
+    "anioCursado": 4
+  },
+  "cursos": [
+    {
+      "curso": "4k1",
+      "sheetId": 0,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "DAO",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Desarrollo\nde\nAplicaciones con\nObjetos",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "11:20",
+          "horaFin": "12:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Desarrollo\nde\nAplicaciones con\nObjetos",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "8:00",
+          "horaFin": "8:45",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "8:45",
+          "horaFin": "9:30",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Mañana",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "9:40",
+          "horaFin": "10:25",
+          "materiaCrudo": "TA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Administración\nde Sistemas",
+          "docentesCrudo": "Romero, Ruben Orlando\nBalut Cabezas, Jorge Ariel\nZoppetti, Darío Germán",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Redes de\nDatos",
+          "docentesCrudo": "Sanchez, Cecilia Beatriz\nGibellini, Fabian Alejandro\nCiceri, Leonardo Ramón",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Investigación\nOperativa",
+          "docentesCrudo": "Carignano, Claudia Etna\nPeretto, Claudia Beatriz\nSánchez, Claudia Andrea",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Simulación",
+          "docentesCrudo": "Sanchez, Daniel Mario\nBerrotaran, Juan Jose\nAuquer, Marcelo Javier",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Legislación",
+          "docentesCrudo": "Vazquez De Novoa, Santiago Roberto\nZanatta, Hugo Alberto",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "docentesCrudo": "Pailos, Hugo\nPolliotto, Martin Dario",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Desarrollo de\nAplicaciones con\nObjetos",
+          "docentesCrudo": "Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "docentesCrudo": "Meles, Silvia Judith\nCrespo, María Mickaela\nGarnero, Constanza",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión de la Mejora\n de Procesos",
+          "docentesCrudo": "Bratti, Alicia Gabriela\nChichalof Roberts, Mabel Beatriz",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión de la Mejora de los Procesos",
+            "nombreCanonico": "Gestión de la Mejora de los Procesos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Green Software",
+          "docentesCrudo": "Cuevas, Juan Carlos\nMana, Franco",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Green Software",
+            "nombreCanonico": "Green Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión Industrial de \nla Producción",
+          "docentesCrudo": "Villarreal, Gustavo Javier\nFlores, Nora Viviana",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión Industrial de la Producción",
+            "nombreCanonico": "Gestión Industrial de la Producción"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 27
+      }
+    },
+    {
+      "curso": "4K1A",
+      "sheetId": 1405594372,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "UIX",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "11:20",
+          "horaFin": "12:50",
+          "materiaCrudo": "Experiencia e \ninterfaces de usuario\n(electiva)",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "10:25",
+          "horaFin": "11:10",
+          "materiaCrudo": "UIX",
+          "materiaMatch": null,
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Mañana         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "11:20",
+          "horaFin": "12:50",
+          "materiaCrudo": "Experiencia e \ninterfaces de usuario\n(electiva)",
+          "materiaMatch": null,
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Experiencia e \ninterfaces de usuario\n(electiva)",
+          "docentesCrudo": null,
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 27
+      }
+    },
+    {
+      "curso": "4k2",
+      "sheetId": 1853931737,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "12:05",
+          "horaFin": "12:50",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "12:50",
+          "horaFin": "13:15",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Redes de\nDatos",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Investigación\nOperativa",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "TA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:45",
+          "materiaCrudo": "Desarrollo de\nAplicaciones",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "13:15",
+          "horaFin": "14:45",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:45",
+          "materiaCrudo": "Desarrollo de\nAplicaciones",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "13:15",
+          "horaFin": "14:00",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "14:00",
+          "horaFin": "14:45",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "14:55",
+          "horaFin": "15:40",
+          "materiaCrudo": "TA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "15:40",
+          "horaFin": "16:25",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "16:35",
+          "horaFin": "17:20",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Tarde",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Tarde          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Administración\nde Sistemas",
+          "docentesCrudo": "Diaz, Gustavo Ismael\nBono, Julio Martin",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Redes de\nDatos",
+          "docentesCrudo": "Sanchez, Cecilia Beatriz\nFigueroa, Rodolfo Alfredo\nCiceri, Leonardo Ramón\nOsuna, Aníbal Ariel",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Investigación\nOperativa",
+          "docentesCrudo": "Carignano, Claudia Etna\nRosa, Sergio Hernan\nSánchez, Claudia Andrea",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Simulación",
+          "docentesCrudo": "Magris, Sergio Victor\nCarena, Gonzalo Ezequiel\nBerrotaran, Juan Jose",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Legislación",
+          "docentesCrudo": "Zanatta, Valentin\nSantiago",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "docentesCrudo": "Pedroni, Juan Pablo\nSanchez, Daniel Mario\nOlariaga, Sandra Monica",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Desarrollo de\nAplicaciones",
+          "docentesCrudo": "Serrano, Diego Javier\nBotta, Oscar Ernesto",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "docentesCrudo": "Meles, Silvia Judith\nMassano, Maria Cecilia\nGarnero, Constanza",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión de la Mejora \nde Procesos",
+          "docentesCrudo": "Bratti, Alicia Gabriela\nChichalof Roberts, Mabel Beatriz\nHoya Sánchez, Roberto Alejandro",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión de la Mejora de los Procesos",
+            "nombreCanonico": "Gestión de la Mejora de los Procesos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión Industrial de \nla Producción",
+          "docentesCrudo": "Villarreal, Gustavo Javier\nFlores, Nora Viviana",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión Industrial de la Producción",
+            "nombreCanonico": "Gestión Industrial de la Producción"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Green Software",
+          "docentesCrudo": "Cuevas, Juan Carlos\nMoya, Vanesa Veronica",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Green Software",
+            "nombreCanonico": "Green Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Seguridad en el \nDesarrollo de Software (electiva)",
+          "docentesCrudo": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Seguridad en el Desarrollo de Software",
+            "nombreCanonico": "Seguridad en el Desarrollo de Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 30
+      }
+    },
+    {
+      "curso": "4K3",
+      "sheetId": 501246135,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "21:25",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "23:05",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "DAO",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Desarrollo de\nAplicaciones",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Desarrollo de\nAplicaciones",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "DAO",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "TA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "23:05",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Seguridad \nen el Desarrollo\n de Software\n(electiva)",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Seguridad en el Desarrollo de Software",
+            "nombreCanonico": "Seguridad en el Desarrollo de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Seguridad \nen el Desarrollo\n de Software\n(electiva)",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Seguridad en el Desarrollo de Software",
+            "nombreCanonico": "Seguridad en el Desarrollo de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche          Desarrollo de\nAplicaciones Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche          Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Administración\nde Sistemas",
+          "docentesCrudo": "Carrizo, Blanca Rosa\nBono, Julio Martin",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Redes de\nDatos",
+          "docentesCrudo": "Villarreal, Gustavo Javier\nUrteaga, Jorge Miguel\nMusso, Anibal Sebastian",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Investigación\nOperativa",
+          "docentesCrudo": "Carignano, Claudia Etna\nRustan, Silvina\nSánchez, Claudia Andrea",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Simulación",
+          "docentesCrudo": "Sanchez, Daniel Mario\nCarena, Gonzalo Ezequiel\nDaniele, Analia Veronica",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Legislación",
+          "docentesCrudo": "Gallardo, Conrado Faustino\nGallardo, Carlos Federico",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "docentesCrudo": "Laboret, Sergio Oscar\nOlariaga, Sandra Monica",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Desarrollo de\nAplicaciones",
+          "docentesCrudo": "Sanabria, Fernando Mario\nCasatti, Martín Gustavo",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo de Aplicaciones Con Objetos",
+            "nombreCanonico": "Desarrollo de Aplicaciones Con Objetos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "docentesCrudo": "Covaro, Laura Ines\nMassano, Maria Cecilia\nAvila, Pilar",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión de la Mejora \nde Procesos",
+          "docentesCrudo": "Bravo, Estela Maris\nChichalof Roberts, Mabel Beatriz\nHoya Sánchez, Roberto Alejandro",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión de la Mejora de los Procesos",
+            "nombreCanonico": "Gestión de la Mejora de los Procesos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión Industrial de \nla Producción",
+          "docentesCrudo": "Zigaran, Jose Carlos\nPeralta, Lorena Daniela",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión Industrial de la Producción",
+            "nombreCanonico": "Gestión Industrial de la Producción"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Seguridad en el \nDesarrollo de Software (electiva)",
+          "docentesCrudo": null,
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Seguridad en el Desarrollo de Software",
+            "nombreCanonico": "Seguridad en el Desarrollo de Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 30
+      }
+    },
+    {
+      "curso": "4K4",
+      "sheetId": 1467160135,
+      "bloques": [
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Lunes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Lunes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "18:15",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Martes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "AS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Administración\nde Sistemas",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Simulación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Miércoles",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Legislación",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Miércoles",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "SIM",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "17:20",
+          "horaFin": "18:05",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "RED",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IOP",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "TA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Jueves",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Jueves",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "18:15",
+          "horaFin": "19:00",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:00",
+          "horaFin": "19:45",
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "Electiva 1",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E1",
+            "opciones": [
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "19:55",
+          "horaFin": "20:40",
+          "materiaCrudo": "IS",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "20:40",
+          "horaFin": "21:25",
+          "materiaCrudo": "TA",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "21:35",
+          "horaFin": "22:20",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "2do Cuatrimestre - Turno Noche         Desarrollo y Operaciones \nDevOps Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "cuatrimestreTag": "2do",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Electiva 2",
+          "materiaMatch": {
+            "tipo": "huecoElectivo",
+            "hueco": "E2",
+            "opciones": [
+              "Desarrollo y Operaciones devOPS",
+              "Gestión de la Mejora de los Procesos",
+              "Gestión Industrial de la Producción",
+              "Green Software"
+            ]
+          },
+          "colorRgb": null
+        },
+        {
+          "cuatrimestre": "1er Cuatrimestre - Turno Noche         Materia Docentes",
+          "cuatrimestreTag": "1er",
+          "dia": "Viernes",
+          "horaInicio": "22:20",
+          "horaFin": "23:05",
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgb": null
+        }
+      ],
+      "resumenMateriaDocente": [
+        {
+          "materiaCrudo": "Administración\nde Sistemas",
+          "docentesCrudo": "Diaz, Gustavo Ismael\nBono, Julio Martin",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 30,
+            "nombreCanonico": "Administración de Sistemas de Información"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Redes de\nDatos",
+          "docentesCrudo": "Urteaga, Jorge Miguel\nMusso, Anibal Sebastian\nCiceri, Leonardo Ramón",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 26,
+            "nombreCanonico": "Redes de Datos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Investigación\nOperativa",
+          "docentesCrudo": "Rosa, Sergio Hernan\nCastro, Sergio Horacio",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 27,
+            "nombreCanonico": "Investigación Operativa"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Simulación",
+          "docentesCrudo": "Castro, Sergio Horacio\nBerrotaran, Juan Jose\nDaniele, Analia Veronica",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 28,
+            "nombreCanonico": "Simulación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Legislación",
+          "docentesCrudo": "Gallardo, Carlos Federico\nGallardo, Conrado Faustino",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 24,
+            "nombreCanonico": "Legislación"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Tecnología\npara la \nAutomatización",
+          "docentesCrudo": "Pedroni, Juan Pablo\nSanchez, Daniel Mario",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 29,
+            "nombreCanonico": "Tecnologías Para la Automatización"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Desarrollo y Operaciones \nDevOps",
+          "docentesCrudo": "Zea Cárdenas, Ninfa Milagros\nPardo, Alfredo Luis",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Desarrollo y Operaciones devOPS",
+            "nombreCanonico": "Desarrollo y Operaciones devOPS"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Ingeniería y\ncalidad de\nSoftware",
+          "docentesCrudo": "Covaro, Laura Ines\nCrespo, María Mickaela\nGarnero, Constanza",
+          "materiaMatch": {
+            "tipo": "obligatoria",
+            "id": 25,
+            "nombreCanonico": "Ingeniería y Calidad de Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Gestión de la Mejora \nde Procesos",
+          "docentesCrudo": "Bratti, Alicia Gabriela\nVelez, German Eduardo",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Gestión de la Mejora de los Procesos",
+            "nombreCanonico": "Gestión de la Mejora de los Procesos"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Green Software",
+          "docentesCrudo": "Mana, Franco\nGimenez Zens, Ines Luz\nMoya, Vanesa Veronica",
+          "materiaMatch": {
+            "tipo": "electiva",
+            "nombreElectiva": "Green Software",
+            "nombreCanonico": "Green Software"
+          },
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        },
+        {
+          "materiaCrudo": "Comunicación Multimedial \nen el Desarrollo de Sistemas",
+          "docentesCrudo": "Odetti, Maria Alejandra\nKabusch, Andrés Ricardo",
+          "materiaMatch": null,
+          "colorRgbMateria": null,
+          "colorRgbDocentes": null
+        }
+      ],
+      "warnings": [],
+      "stats": {
+        "filasMatrix": 200,
+        "columnasMatrix": 27
+      }
+    }
+  ]
+}

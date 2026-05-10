@@ -1,0 +1,60 @@
+{
+  "$schema_comment": "2.º año — abreviaturas planilla UTN; SSL con variantes de nombre.",
+  "obligatoriasPorId": {
+    "9": {
+      "nombreCanonico": "Análisis Matemático II",
+      "patrones": [
+        "Análisis 2",
+        "Analisis 2",
+        "Análisis II",
+        "AM II",
+        "Análisis Matemático II"
+      ]
+    },
+    "10": {
+      "nombreCanonico": "Física II",
+      "patrones": ["Física 2", "Fisica 2", "Física II", "Fisica II"]
+    },
+    "13": {
+      "nombreCanonico": "Sintaxis y Semántica de los Lenguajes",
+      "patrones": [
+        "SSL",
+        "Sintaxis y Semántica de los Lenguajes",
+        "Sintaxis y Semantica de los Lenguajes",
+        "Sintáxis y Semántica",
+        "Sintaxis y Semántica",
+        "Sintaxis y Semantica",
+        "Sintaxis",
+        "Semántica de los Lenguajes"
+      ]
+    },
+    "14": {
+      "nombreCanonico": "Paradigmas de Programación",
+      "patrones": ["PPR", "Paradigmas de Programación", "Paradigmas de Programacion"]
+    },
+    "15": {
+      "nombreCanonico": "Sistemas Operativos",
+      "patrones": ["SOP", "Sistemas Operativos"]
+    },
+    "16": {
+      "nombreCanonico": "Análisis de Sistemas de Información",
+      "patrones": [
+        "ASI",
+        "Análisis de sistemas",
+        "Analisis de sistemas",
+        "Análisis de Sistemas de Información"
+      ]
+    },
+    "17": {
+      "nombreCanonico": "Probabilidad y Estadística",
+      "patrones": [
+        "PYE",
+        "Probabilidad y Estadística",
+        "Probabilidad y Estadistica",
+        "Probabilidad y Estadísitica"
+      ]
+    }
+  },
+  "electivasPorNombre": {},
+  "huecosElectivos": {}
+}

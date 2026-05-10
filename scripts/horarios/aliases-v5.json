@@ -1,0 +1,63 @@
+{
+  "$schema_comment": "Patrones en texto de planilla → match en materias.json; matching case-insensitive y por inclusión.",
+  "obligatoriasPorId": {
+    "31": {
+      "nombreCanonico": "Inteligencia Artificial",
+      "patrones": ["IA", "Inteligencia Artificial", "Inteligencia Artificial"]
+    },
+    "32": {
+      "nombreCanonico": "Ciencia de Datos",
+      "patrones": ["Ciencia de Datos", "CD"]
+    },
+    "33": {
+      "nombreCanonico": "Sistemas de Gestión",
+      "patrones": ["SG", "Sistemas de Gestión", "Sistemas de Gestion"]
+    },
+    "34": {
+      "nombreCanonico": "Gestión Gerencial",
+      "patrones": ["GG", "Gestión Gerencial", "Gestion Gerencial"]
+    },
+    "35": {
+      "nombreCanonico": "Seguridad en los Sistemas de Información",
+      "patrones": ["SSI", "Seguridad en los Sistemas", "Seguridad SI"]
+    },
+    "36": {
+      "nombreCanonico": "Proyecto Final",
+      "patrones": ["Proyecto Final", "Proyecto FInal", "PF"]
+    }
+  },
+  "electivasPorNombre": {
+    "Ingeniería de Software de Fuentes Abiertas/Libres": {
+      "patrones": [
+        "Ingeniería de Software",
+        "Ingenieria de Software",
+        "ISFD",
+        "Fuentes Abiertas",
+        "Fuentes Libres"
+      ]
+    }
+  },
+  "huecosElectivos": {
+    "E1": {
+      "opciones": ["Decisiones en Escenarios Complejos", "Gerenciamiento Estratégico"],
+      "patrones": ["Electiva 1", "E1", "Decisiones", "Gerenciamiento"]
+    },
+    "E2": {
+      "opciones": ["Emprendimientos Tecnológicos"],
+      "patrones": [
+        "Electiva 2",
+        "E2",
+        "Emprendimientos",
+        "Habilidades blandas",
+        "Habilidades Blandas"
+      ]
+    },
+    "E3": {
+      "opciones": [
+        "Creatividad e Innovación en Ingeniería",
+        "Consultoría en Negocios Digitales"
+      ],
+      "patrones": ["Electiva 3", "E3", "Creatividad", "Consultoría en Negocios", "Consultoria"]
+    }
+  }
+}

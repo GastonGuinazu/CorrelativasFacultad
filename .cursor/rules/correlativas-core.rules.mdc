@@ -1,0 +1,7 @@
+---
+description: Recordatorio de skills al tocar motor, datos de materias o modelos
+globs: src/app/core/rules/**,src/app/core/data/**,src/app/core/models/**
+alwaysApply: false
+---
+
+Antes de cambiar reglas de correlativas, el grafo del plan o tipos derivados del motor, leé el skill del proyecto **correlativas-engine** (`.cursor/skills/correlativas-engine/SKILL.md`). Si solo tocás carga de `materias.json` o modelos de materia, leé **materias-y-json** (`.cursor/skills/materias-y-json/SKILL.md`).

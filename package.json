@@ -7,7 +7,14 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:ci": "ng test --no-watch --browsers=ChromeHeadless"
+    "test:ci": "ng test --no-watch --browsers=ChromeHeadless",
+    "horarios:fetch": "node scripts/horarios/build-horarios.mjs quinto",
+    "horarios:fetch:cuarto": "node scripts/horarios/build-horarios.mjs cuarto",
+    "horarios:fetch:tercero": "node scripts/horarios/build-horarios.mjs tercero",
+    "horarios:fetch:segundo": "node scripts/horarios/build-horarios.mjs segundo",
+    "horarios:fetch:primero": "node scripts/horarios/build-horarios.mjs primero",
+    "test:horarios": "node --test scripts/horarios/*.test.mjs",
+    "horarios:debug": "node scripts/horarios/debug-sheet.mjs"
   },
   "private": true,
   "dependencies": {

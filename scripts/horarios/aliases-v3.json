@@ -1,0 +1,53 @@
+{
+  "$schema_comment": "3.º año — abreviaturas planilla UTN; Backend electiva con varios nombres.",
+  "obligatoriasPorId": {
+    "12": {
+      "nombreCanonico": "Inglés II",
+      "patrones": ["Inglés 2", "Inglés II", "Ingles 2", "Ingles II", "Ing II"]
+    },
+    "18": {
+      "nombreCanonico": "Economía",
+      "patrones": ["ECO", "Economía", "Economia"]
+    },
+    "19": {
+      "nombreCanonico": "Base de Datos",
+      "patrones": ["Base de Datos", "BD", "BBDD"]
+    },
+    "20": {
+      "nombreCanonico": "Desarrollo de Software",
+      "patrones": ["DDS", "Desarrollo de Software"]
+    },
+    "21": {
+      "nombreCanonico": "Comunicación de Datos",
+      "patrones": ["COM", "Comunicación de Datos", "Comunicacion de Datos"]
+    },
+    "22": {
+      "nombreCanonico": "Análisis Numérico",
+      "patrones": ["ANU", "Análisis Numérico", "Analisis Numerico"]
+    },
+    "23": {
+      "nombreCanonico": "Diseño de Sistemas de Información",
+      "patrones": ["DSI", "Diseño de Sistemas", "Diseno de Sistemas"]
+    },
+    "99": {
+      "nombreCanonico": "Seminario Integrador (Analista)",
+      "patrones": [
+        "Seminario Integrador",
+        "Sem. Integrador",
+        "Seminario Int",
+        "Sem Int"
+      ]
+    }
+  },
+  "electivasPorNombre": {
+    "Backend de Aplicaciones": {
+      "patrones": [
+        "Backend de Aplicaciones",
+        "Backend",
+        "Elec",
+        "Elect"
+      ]
+    }
+  },
+  "huecosElectivos": {}
+}

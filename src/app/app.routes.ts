@@ -11,5 +11,20 @@ export const routes: Routes = [
     path: 'mapa',
     component: CorrelatividadesMapPage,
   },
+  {
+    path: 'cursos-profes',
+    loadComponent: () =>
+      import('./features/cursos-profes/cursos-profes.page').then(
+        (m) => m.CursosProfesPage,
+      ),
+  },
+  {
+    path: 'cronograma',
+    loadComponent: () =>
+      import('./features/cronograma-armado/cronograma-armado.page').then(
+        (m) => m.CronogramaArmadoPage,
+      ),
+  },
+  { path: 'horarios', redirectTo: 'cursos-profes', pathMatch: 'full' },
   { path: '**', redirectTo: '' },
 ];

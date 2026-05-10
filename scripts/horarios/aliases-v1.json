@@ -1,0 +1,69 @@
+{
+  "$schema_comment": "1.º año — abreviaturas planilla UTN; Álgebra/AGA → Álgebra y Geometría Analítica (id 2).",
+  "obligatoriasPorId": {
+    "1": {
+      "nombreCanonico": "Análisis Matemático I",
+      "patrones": [
+        "Análisis 1",
+        "Analisis 1",
+        "Análisis I",
+        "AM I",
+        "Análisis Matemático I"
+      ]
+    },
+    "2": {
+      "nombreCanonico": "Álgebra y Geometría Analítica",
+      "patrones": [
+        "AGA",
+        "Álgebra",
+        "Algebra",
+        "Álgebra y Geometría Analítica",
+        "Algebra y Geometria Analitica"
+      ]
+    },
+    "3": {
+      "nombreCanonico": "Física I",
+      "patrones": ["Física 1", "Fisica 1", "Física I", "Fisica I"]
+    },
+    "4": {
+      "nombreCanonico": "Inglés I",
+      "patrones": ["Inglés 1", "Ingles 1", "Inglés I", "Ingles I", "Ing I"]
+    },
+    "5": {
+      "nombreCanonico": "Lógica y Estructuras Discretas",
+      "patrones": ["LED", "Lógica y Estructuras Discretas", "Logica y Estructuras Discretas"]
+    },
+    "6": {
+      "nombreCanonico": "Algoritmo y Estructura de Datos",
+      "patrones": [
+        "AED",
+        "Algoritmos y Estructuras de Datos",
+        "Algoritmo y Estructura de Datos",
+        "Algoritmos y Estructura de Datos"
+      ]
+    },
+    "7": {
+      "nombreCanonico": "Arquitectura de Computadoras",
+      "patrones": [
+        "ACO",
+        "Arquitectura de Computadoras",
+        "Arquitectura Computadoras"
+      ]
+    },
+    "8": {
+      "nombreCanonico": "Sistemas y Proceso de Negocios",
+      "patrones": [
+        "SPN",
+        "Sistemas y Procesos de Negocios",
+        "Sistemas y Proceso de Negocios",
+        "Sistemas y Proceso de Negocio"
+      ]
+    },
+    "11": {
+      "nombreCanonico": "Ingeniería y Sociedad",
+      "patrones": ["ISO", "Ingeniería y Sociedad", "Ingenieria y Sociedad"]
+    }
+  },
+  "electivasPorNombre": {},
+  "huecosElectivos": {}
+}

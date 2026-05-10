@@ -89,6 +89,20 @@ import { EstadoUsuario, MateriaId } from '../../core/models/materia.model';
             >
               Mapa
             </a>
+            <a
+              routerLink="/cursos-profes"
+              routerLinkActive="bg-emerald-600 text-white shadow-sm"
+              class="rounded-full px-3 py-1.5 text-xs font-medium text-white/90 transition hover:text-white"
+            >
+              Cursos y Profes
+            </a>
+            <a
+              routerLink="/cronograma"
+              routerLinkActive="bg-emerald-600 text-white shadow-sm"
+              class="rounded-full px-3 py-1.5 text-xs font-medium text-white/90 transition hover:text-white"
+            >
+              Cronograma
+            </a>
           </div>
         </nav>
 
