@@ -131,8 +131,7 @@ type FiltroCuatrimestre = '1er' | '2do';
             Cronograma de cursada
           </h1>
           <p class="mx-auto mt-2 max-w-2xl text-sm text-white/85">
-            Elegí el cuatrimestre, luego materias y comisión. La grilla se mantiene visible al
-            hacer scroll en pantallas anchas.
+            Elegí el cuatrimestre, luego materias y comisión.
           </p>
         </div>
       </header>

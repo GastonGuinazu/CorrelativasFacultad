@@ -10,9 +10,10 @@ import { ActivatedRoute, Router, RouterLink, RouterLinkActive } from '@angular/r
 import { LucideAngularModule, CalendarClock, GraduationCap } from 'lucide-angular';
 import { HorariosPayload } from '../../core/models/horarios-quinto.model';
 import {
-  etiquetaMatch,
-  textoCrudoVisible,
-} from '../../core/utils/materia-match-label';
+  buildWeeklyGrid,
+  particionarBloquesPorCuatrimestre,
+} from '../../core/horarios/cursos-profes-layout';
+import { etiquetaMatch } from '../../core/utils/materia-match-label';
 
 type AnioCursado = 1 | 2 | 3 | 4 | 5;
 
@@ -95,10 +96,10 @@ type AnioCursado = 1 | 2 | 3 | 4 | 5;
           >
             {{ tituloAnio() }}
           </h1>
-          <p class="mx-auto mt-2 max-w-2xl text-sm text-white/85">
-            Elegí el año cursado y el curso para ver materias, docentes y fragmentos
-            de grilla. Podés abrir el Google Sheet oficial y comparar con lo
-            sincronizado acá.
+          <p class="mx-auto mt-2 max-w-2xl text-sm leading-relaxed text-white/85">
+            Acá ves los horarios y docentes que publica el CET por año y por
+            comisión. Elegí el año arriba y la pestaña de tu curso.
+            El enlace al Google Sheet te lleva al documento oficial por si querés contrastar con la fuente.
           </p>
 
           <div
@@ -252,101 +253,290 @@ type AnioCursado = 1 | 2 | 3 | 4 | 5;
               }
             </div>
 
-            @if (cursoActivo(); as c) {
-              <section class="mt-6 space-y-6" aria-labelledby="titulo-resumen">
-                @if (c.warnings?.length) {
+            @if (vistaCursoHorarios(); as v) {
+              <section class="mt-6" [attr.aria-label]="'Curso ' + v.nombreCurso">
+                @if (v.warnings.length) {
                   <div
-                    class="rounded-xl border border-amber-500/35 bg-amber-950/30 px-3 py-2 text-xs text-amber-100"
+                    class="mb-6 rounded-xl border border-amber-500/35 bg-amber-950/30 px-3 py-2 text-xs text-amber-100"
                   >
-                    @for (w of c.warnings; track w) {
+                    @for (w of v.warnings; track w) {
                       <p>{{ w }}</p>
                     }
                   </div>
                 }
 
-                <div>
-                  <h2
-                    id="titulo-resumen"
-                    class="text-base font-semibold text-white"
-                  >
-                    Materias y docentes (resumen)
+                <div
+                  class="flex flex-col gap-8 lg:flex-row lg:items-stretch lg:gap-6 xl:gap-8"
+                >
+                  <!-- Columna principal: solo grillas por cuatrimestre -->
+                  <div class="min-w-0 flex-1 space-y-10">
+                <!-- 1.er cuatrimestre -->
+                <section class="space-y-4" aria-labelledby="titulo-cuat-1">
+                  <h2 id="titulo-cuat-1" class="text-lg font-semibold text-white">
+                    1.er cuatrimestre
                   </h2>
 
-                  <div
-                    class="mt-3 overflow-x-auto rounded-xl border border-slate-700/90"
-                  >
-                    <table class="min-w-full divide-y divide-slate-700 text-left text-sm">
-                      <thead class="bg-slate-800/80">
-                        <tr>
-                          <th
-                            class="px-3 py-2.5 font-medium text-slate-300"
-                            scope="col"
-                          >
-                            En el plan
-                          </th>
-                          <th
-                            class="px-3 py-2.5 font-medium text-slate-300"
-                            scope="col"
-                          >
-                            Docentes
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody class="divide-y divide-slate-700/80">
-                        @for (
-                          fila of c.resumenMateriaDocente;
-                          track $index
-                        ) {
-                          <tr class="bg-slate-900/50 hover:bg-slate-800/40">
-                            <td class="align-top px-3 py-3 text-slate-200">
-                              <div class="font-medium text-white">
-                                {{ etiquetaMatchFn(fila.materiaMatch, fila.materiaCrudo) }}
-                              </div>
-                              @if (fila.materiaCrudo && textoCrudoVisibleFn(fila.materiaCrudo, fila.materiaMatch)) {
-                                <div
-                                  class="mt-1 whitespace-pre-line text-xs text-slate-500"
-                                >
-                                  {{ fila.materiaCrudo }}
-                                </div>
-                              }
-                            </td>
-                            <td
-                              class="align-top whitespace-pre-line px-3 py-3 text-slate-300"
-                            >
-                              {{ fila.docentesCrudo ?? '—' }}
-                            </td>
-                          </tr>
-                        }
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-
-                <div>
-                  <h3 class="text-base font-semibold text-white">
-                    Grilla semanal (fragmentos)
-                  </h3>
-                  @if (c.bloques.length === 0) {
-                    <p class="mt-2 text-sm text-slate-500">
-                      Aún no hay bloques por día en el JSON para este curso. La
-                      tabla anterior sí suele traer el resumen Materia–Docente.
-                      Si necesitás la grilla horaria completa, revisá el script de
-                      extracción.
-                    </p>
-                  } @else {
-                    <ul class="mt-3 space-y-2 text-sm text-slate-300">
-                      @for (b of c.bloques; track $index) {
-                        <li
-                          class="rounded-lg border border-slate-700 bg-slate-800/40 px-3 py-2"
+                  <div>
+                    <h3 class="text-sm font-medium text-slate-300">Grilla horaria</h3>
+                    @if (v.grid1er.filas.length === 0) {
+                      <p class="mt-2 text-sm text-slate-500">
+                        Sin bloques horarios en el JSON para este período.
+                      </p>
+                    } @else {
+                      <div
+                        class="mt-2 overflow-x-auto rounded-xl border border-slate-700/90"
+                      >
+                        <table
+                          class="min-w-[480px] w-full divide-y divide-slate-700 text-left text-[10px] leading-tight sm:text-[11px]"
                         >
-                          <span class="font-medium text-white">{{ b.dia }}</span>
-                          {{ b.horaInicio }}–{{ b.horaFin }}
-                          —
-                          {{ etiquetaMatchFn(b.materiaMatch, b.materiaCrudo) }}
-                        </li>
+                          <thead class="bg-slate-800/80">
+                            <tr>
+                              <th
+                                class="whitespace-nowrap px-1.5 py-1.5 font-medium text-slate-400 sm:px-2"
+                                scope="col"
+                              >
+                                Horario
+                              </th>
+                              @for (dia of v.grid1er.dias; track dia) {
+                                <th
+                                  class="min-w-[6.25rem] px-1.5 py-1.5 font-medium text-slate-400 sm:px-2"
+                                  scope="col"
+                                >
+                                  {{ dia }}
+                                </th>
+                              }
+                            </tr>
+                          </thead>
+                          <tbody class="divide-y divide-slate-700/80">
+                            @for (fila of v.grid1er.filas; track fila.etiquetaHorario) {
+                              <tr class="bg-slate-900/50">
+                                <th
+                                  class="whitespace-nowrap px-1.5 py-1.5 align-top font-medium text-slate-300 sm:px-2"
+                                  scope="row"
+                                >
+                                  {{ fila.etiquetaHorario }}
+                                </th>
+                                @for (dia of v.grid1er.dias; track dia) {
+                                  <td class="align-top px-1.5 py-1.5 text-slate-300 sm:px-2">
+                                    @for (b of fila.celdas[dia]; track $index) {
+                                      <div class="border-b border-slate-700/50 py-0.5 last:border-0 last:pb-0">
+                                        <span class="font-medium text-slate-100">{{
+                                          etiquetaMatchFn(b.materiaMatch, b.materiaCrudo)
+                                        }}</span>
+                                      </div>
+                                    }
+                                  </td>
+                                }
+                              </tr>
+                            }
+                          </tbody>
+                        </table>
+                      </div>
+                    }
+                  </div>
+                </section>
+
+                <!-- 2.do cuatrimestre -->
+                <section class="space-y-4" aria-labelledby="titulo-cuat-2">
+                  <h2 id="titulo-cuat-2" class="text-lg font-semibold text-white">
+                    2.do cuatrimestre
+                  </h2>
+
+                  <div>
+                    <h3 class="text-sm font-medium text-slate-300">Grilla horaria</h3>
+                    @if (v.grid2do.filas.length === 0) {
+                      <p class="mt-2 text-sm text-slate-500">
+                        Sin bloques horarios en el JSON para este período.
+                      </p>
+                    } @else {
+                      <div
+                        class="mt-2 overflow-x-auto rounded-xl border border-slate-700/90"
+                      >
+                        <table
+                          class="min-w-[480px] w-full divide-y divide-slate-700 text-left text-[10px] leading-tight sm:text-[11px]"
+                        >
+                          <thead class="bg-slate-800/80">
+                            <tr>
+                              <th
+                                class="whitespace-nowrap px-1.5 py-1.5 font-medium text-slate-400 sm:px-2"
+                                scope="col"
+                              >
+                                Horario
+                              </th>
+                              @for (dia of v.grid2do.dias; track dia) {
+                                <th
+                                  class="min-w-[6.25rem] px-1.5 py-1.5 font-medium text-slate-400 sm:px-2"
+                                  scope="col"
+                                >
+                                  {{ dia }}
+                                </th>
+                              }
+                            </tr>
+                          </thead>
+                          <tbody class="divide-y divide-slate-700/80">
+                            @for (fila of v.grid2do.filas; track fila.etiquetaHorario) {
+                              <tr class="bg-slate-900/50">
+                                <th
+                                  class="whitespace-nowrap px-1.5 py-1.5 align-top font-medium text-slate-300 sm:px-2"
+                                  scope="row"
+                                >
+                                  {{ fila.etiquetaHorario }}
+                                </th>
+                                @for (dia of v.grid2do.dias; track dia) {
+                                  <td class="align-top px-1.5 py-1.5 text-slate-300 sm:px-2">
+                                    @for (b of fila.celdas[dia]; track $index) {
+                                      <div class="border-b border-slate-700/50 py-0.5 last:border-0 last:pb-0">
+                                        <span class="font-medium text-slate-100">{{
+                                          etiquetaMatchFn(b.materiaMatch, b.materiaCrudo)
+                                        }}</span>
+                                      </div>
+                                    }
+                                  </td>
+                                }
+                              </tr>
+                            }
+                          </tbody>
+                        </table>
+                      </div>
+                    }
+                  </div>
+                </section>
+
+                @if (v.tieneSinTag) {
+                  <section class="space-y-4 rounded-xl border border-amber-500/25 bg-amber-950/15 p-4" aria-labelledby="titulo-sin-cuat">
+                    <h2 id="titulo-sin-cuat" class="text-base font-semibold text-amber-100">
+                      Bloques sin cuatrimestre en el JSON
+                    </h2>
+                    <p class="text-xs text-amber-100/90">
+                      Estos horarios no tienen etiqueta 1.er / 2.do en los datos extraídos.
+                      Revisá la planilla o el script ETL si deberían estar clasificados.
+                    </p>
+                    <div class="overflow-x-auto rounded-xl border border-slate-700/90">
+                      <table
+                        class="min-w-[480px] w-full divide-y divide-slate-700 text-left text-[10px] leading-tight sm:text-[11px]"
+                      >
+                        <thead class="bg-slate-800/80">
+                          <tr>
+                            <th class="whitespace-nowrap px-1.5 py-1.5 font-medium text-slate-400 sm:px-2" scope="col">
+                              Horario
+                            </th>
+                            @for (dia of v.gridSinTag.dias; track dia) {
+                              <th class="min-w-[6.25rem] px-1.5 py-1.5 font-medium text-slate-400 sm:px-2" scope="col">
+                                {{ dia }}
+                              </th>
+                            }
+                          </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-700/80">
+                          @for (fila of v.gridSinTag.filas; track fila.etiquetaHorario) {
+                            <tr class="bg-slate-900/50">
+                              <th class="whitespace-nowrap px-1.5 py-1.5 align-top font-medium text-slate-300 sm:px-2" scope="row">
+                                {{ fila.etiquetaHorario }}
+                              </th>
+                              @for (dia of v.gridSinTag.dias; track dia) {
+                                <td class="align-top px-1.5 py-1.5 text-slate-300 sm:px-2">
+                                  @for (b of fila.celdas[dia]; track $index) {
+                                    <span class="font-medium text-slate-100">{{
+                                      etiquetaMatchFn(b.materiaMatch, b.materiaCrudo)
+                                    }}</span>
+                                  }
+                                </td>
+                              }
+                            </tr>
+                          }
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+                }
+                  </div>
+
+                  <!-- Panel lateral: misma altura que la columna principal para que sticky funcione al bajar al 2.do cuatrimestre -->
+                  <aside
+                    class="flex w-full shrink-0 flex-col lg:w-[min(100%,15.5rem)] xl:w-[17rem]"
+                    aria-label="Materias y docentes del curso"
+                  >
+                    <div
+                      class="flex min-h-0 flex-1 flex-col lg:min-h-full"
+                    >
+                      <div
+                        class="rounded-xl border border-slate-700/90 bg-slate-900/95 shadow-lg shadow-black/20 ring-1 ring-white/5 lg:sticky lg:top-4 lg:z-[5] lg:max-h-[min(85vh,calc(100dvh-3rem))] lg:overflow-y-auto"
+                      >
+                      <div
+                        class="sticky top-0 z-[1] border-b border-slate-700/80 bg-slate-900/98 px-2 py-1.5 backdrop-blur-sm lg:static lg:bg-transparent lg:backdrop-blur-none"
+                      >
+                        <p class="text-[9px] font-semibold uppercase tracking-wide text-slate-400">
+                          Materias y docentes
+                        </p>
+                        <p class="mt-0.5 text-[8px] leading-tight text-slate-500">
+                          Misma tabla para ambos cuatrimestres.
+                        </p>
+                      </div>
+                      @if (v.resumenCompleto.length === 0) {
+                        <p class="px-2 py-3 text-[10px] text-slate-500">
+                          Sin filas de resumen en el JSON para este curso.
+                        </p>
+                      } @else {
+                        <div class="px-0.5 pb-1.5">
+                          <table
+                            class="table-fixed w-full divide-y divide-slate-700/90 text-left text-[9px] leading-tight sm:text-[10px]"
+                          >
+                            <colgroup>
+                              <col class="w-[40%]" />
+                              <col class="w-[60%]" />
+                            </colgroup>
+                            <thead class="bg-slate-800/60">
+                              <tr>
+                                <th
+                                  class="px-1 py-1 font-medium text-slate-400"
+                                  scope="col"
+                                >
+                                  Materia
+                                </th>
+                                <th
+                                  class="px-1 py-1 font-medium text-slate-400"
+                                  scope="col"
+                                >
+                                  Docentes
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700/70">
+                              @for (fila of v.resumenCompleto; track $index) {
+                                <tr class="bg-slate-900/40 hover:bg-slate-800/50">
+                                  <td class="min-w-0 align-middle px-1 py-1 text-slate-200">
+                                    <div
+                                      class="line-clamp-2 break-words font-medium leading-tight text-slate-100"
+                                      [title]="
+                                        etiquetaMatchFn(fila.materiaMatch, fila.materiaCrudo)
+                                      "
+                                    >
+                                      {{
+                                        etiquetaMatchFn(fila.materiaMatch, fila.materiaCrudo)
+                                      }}
+                                    </div>
+                                  </td>
+                                  <td class="min-w-0 align-middle px-1 py-1 text-slate-400">
+                                    <div class="flex flex-col gap-px">
+                                      @for (
+                                        nombre of docentesPorLinea(fila.docentesCrudo);
+                                        track $index
+                                      ) {
+                                        <div class="whitespace-nowrap leading-tight">
+                                          {{ nombre }}
+                                        </div>
+                                      }
+                                    </div>
+                                  </td>
+                                </tr>
+                              }
+                            </tbody>
+                          </table>
+                        </div>
                       }
-                    </ul>
-                  }
+                      </div>
+                    </div>
+                  </aside>
                 </div>
               </section>
             }
@@ -362,7 +552,6 @@ export class CursosProfesPage {
   private readonly router = inject(Router);
 
   readonly etiquetaMatchFn = etiquetaMatch;
-  readonly textoCrudoVisibleFn = textoCrudoVisible;
 
   readonly iconCap = GraduationCap;
   readonly iconClock = CalendarClock;
@@ -377,11 +566,21 @@ export class CursosProfesPage {
     return `Horarios y docentes — ${a}.º año`;
   });
 
-  readonly cursoActivo = computed(() => {
+  readonly vistaCursoHorarios = computed(() => {
     const p = this.payload();
     if (!p?.cursos?.length) return null;
     const i = Math.min(this.cursoIdx(), p.cursos.length - 1);
-    return p.cursos[i];
+    const c = p.cursos[i];
+    const part = particionarBloquesPorCuatrimestre(c.bloques);
+    return {
+      nombreCurso: c.curso,
+      warnings: c.warnings ?? [],
+      grid1er: buildWeeklyGrid(part.primer),
+      grid2do: buildWeeklyGrid(part.segundo),
+      gridSinTag: buildWeeklyGrid(part.sinCuatrimestre),
+      tieneSinTag: part.sinCuatrimestre.length > 0,
+      resumenCompleto: c.resumenMateriaDocente ?? [],
+    };
   });
 
   constructor() {
@@ -438,6 +637,23 @@ export class CursosProfesPage {
       },
       error: () => this.loadError.set(hintFetch),
     });
+  }
+
+  /**
+   * Lista de docentes: uno por renglón visual; cada ítem sin partir en dos renglones (`whitespace-nowrap` en template).
+   * Separa por saltos de línea del sheet, punto medio (·), `;` o barra con espacios.
+   */
+  docentesPorLinea(raw: string | null): string[] {
+    if (!raw?.trim()) return ['—'];
+    let s = raw.replace(/\r\n/g, '\n').trim();
+    s = s.replace(/\s*·\s*/g, '\n');
+    s = s.replace(/\s*;\s*/g, '\n');
+    s = s.replace(/\s+\/\s+/g, '\n');
+    const parts = s
+      .split(/\n/)
+      .map((x) => x.replace(/\s+/g, ' ').trim())
+      .filter(Boolean);
+    return parts.length ? parts : ['—'];
   }
 
   fechaLegible(iso: string | null): string {
